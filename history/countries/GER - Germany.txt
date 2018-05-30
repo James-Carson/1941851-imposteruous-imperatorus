@@ -39,10 +39,6 @@ set_technology = {
 }
 
 add_ideas = {
-	GER_divided_govt
-	GER_naval_treaty
-	#GER_army_treaty
-	#GER_versialles_no_good
 	low_economic_mobilisation 
 	limited_exports
 	GER_Anton_Arco_Valley_val
@@ -106,7 +102,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -145,9 +141,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm III"
-	desc = "POLITICS_WILHELM_III_DESC"
-	picture = "Portrait_Germany_William_III.dds"
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = "Portrait_Germany_William_II.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
