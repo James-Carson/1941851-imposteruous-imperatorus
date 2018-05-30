@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = MOR
+		owner = ITA
 		add_core_of = MOR
 		add_core_of = TUN
 		victory_points = {
