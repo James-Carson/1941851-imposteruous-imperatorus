@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = SCO
 		buildings = {
 			infrastructure = 6
 			dockyard = 4
