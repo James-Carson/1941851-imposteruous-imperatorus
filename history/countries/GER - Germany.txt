@@ -61,8 +61,8 @@ add_to_faction = HOL
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.44
-set_war_support = 0.59
+set_stability = 0.80
+set_war_support = 0.50
 
 set_politics = {
 
