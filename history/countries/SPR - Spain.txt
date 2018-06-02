@@ -1,7 +1,5 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
-
 set_research_slots = 3
 
 set_technology = {
@@ -24,12 +22,6 @@ set_technology = {
 	early_battleship = 1
 	transport = 1
 }
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
 
 add_ideas = {
 	SCW_Idea

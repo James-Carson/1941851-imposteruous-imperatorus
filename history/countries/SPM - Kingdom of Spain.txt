@@ -1,6 +1,4 @@
-﻿capital = 169
-
-oob = "SPM_1936"
+﻿capital = 41
 
 set_research_slots = 3
 
@@ -25,20 +23,9 @@ set_technology = {
 	transport = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
 add_ideas = {
 	SCW_Idea
 	extensive_conscription
-	SCW_SPM_no_support
-	GEN_Oscar_Jensen_hog_pau
-	GEN_Lucas_Friberg_for_pau
-	GEN_William_Ostberg_eco_pau
-	GEN_Mats_Holmgren_sec_pau
 }
 
 set_politics = {
@@ -88,16 +75,6 @@ parties = {
 set_convoys = 150
 set_stability = 0.55
 set_war_support = 0.75
-
-declare_war_on = {
-	target = SPF
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = SPA
-	type = annex_everything
-}
 
 create_country_leader = {
 	name = "HM Jaime Leopoldo y Battenberg"

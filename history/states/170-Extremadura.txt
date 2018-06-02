@@ -18,9 +18,6 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = SPM
-		add_claim_by = SPR
-		add_claim_by = SPA
-		add_claim_by = SPF
 	}
 
 	provinces={

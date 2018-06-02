@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = RFN
+		owner = FIN
 		victory_points = {
 			11105 15 
 		}
@@ -33,7 +33,6 @@ state={
 			}
 		}
 		add_core_of = FIN
-		add_core_of = RFN
 	}
 
 	provinces={
