@@ -156,60 +156,11 @@ units = {
 
 	}
 
-	# E Sóma Stratoú
-	division = {
-		name = "XII Merarchía Pezikoú"
-		location = 6895
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
 
-	}
 
-	division = {
-		name = "XIII Merarchía Pezikoú"
-		location = 4112
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+	
 
-	}
 
-	division = {
-		name = "XIV Merarchía Pezikoú"
-		location = 849
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	division = {
-		name = "XV Merarchía Pezikoú"
-		location = 4112
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	division = {
-		name = "XVI Merarchía Pezikoú"
-		location = 3879
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	division = {
-		name = "XVII Merarchía Pezikoú"
-		location = 922
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
 
 	##### NAVAL UNITS #####
 	navy = {					

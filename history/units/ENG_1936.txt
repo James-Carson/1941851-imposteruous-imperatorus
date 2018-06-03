@@ -142,23 +142,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	
-	#Ireland Command
-	
-	division= {	
-		name = "10th Irish Infantry Division"
-		location = 3379
-		division_template = "Royal Infantry Division"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
-	}
-	
-	division= {	
-		name = "16th Irish Infantry Division"
-		location = 11293
-		division_template = "Royal Infantry Division"
-		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
-	}
+
 	
 	#Cavalry Brigades
 	
@@ -210,14 +194,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division= {	
-		name = "Canal Brigade"
-		location = 1155
-		division_template = "Colonial Garrison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
 
-	}
 	division= {	
 		name = "The Cavalry Brigade (Egypt)"
 		location = 4076

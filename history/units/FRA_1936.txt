@@ -438,15 +438,7 @@ units = {
 		start_experience_factor = 0.2
 	}
 
-	##### Eastern Mediterranean Theatre #####
-	### Army: Mandat du Levant ### -- Beirut
-	division= {	
-		name = "Mandat du Levant"
-		location = 792
-		division_template = "Brigade Coloniale" 	# Colonial unit
-		start_experience_factor = 0.2
 
-	}
 
 	# Troupes de Madagascar
 	division= {	

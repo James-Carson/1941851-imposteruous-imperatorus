@@ -234,14 +234,7 @@ units = {
 		start_equipment_factor = 0.5
 	}
 
-	## Armata dell'Africa Orientale Italiana ##
-	# I Corpo d'Armata dell'A.O.I. #
-	division= {	
-		name = "26a Divisione di Fanteria 'Assietta'"
-		location = 1005
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.3
-	}
+
 	division= {	
 		name = "30a Divisione di Fanteria 'Sabauda'"
 		location = 6889
@@ -282,13 +275,7 @@ units = {
 
 	}
 
-	# III Corpo d'Armata dell'A.O.I. #
-	division= {	
-		name = "27a Divisione di Fanteria 'Sila'"
-		location = 11746
-		division_template = "Divisione di Fanteria"	
-		start_experience_factor = 0.3
-	}
+
 	division= {	
 		name = "1a Divisione CC.NN. '23 Marzo'"
 		location = 7209
