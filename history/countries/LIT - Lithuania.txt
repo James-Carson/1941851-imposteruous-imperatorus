@@ -22,24 +22,9 @@ set_convoys = 20
 set_stability = 0.1
 set_war_support = 0.1
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_POL
-set_country_flag = sphere_2_by_POL
-set_country_flag = sphere_3_by_POL
-add_ideas = sphered_idea_8
-
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 16
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 4
-		}
 		social_democrat = {
 			popularity = 0
 		}

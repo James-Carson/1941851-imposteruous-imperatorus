@@ -1,7 +1,4 @@
 ﻿capital = 219
-
-oob = "SOV_1936"
-
 set_research_slots = 4
 
 # Starting tech
@@ -42,67 +39,7 @@ set_convoys = 50
 set_stability = 0.62
 set_war_support = 0.1
 
-
-set_country_flag = great_power_3
-save_global_event_target_as = sphereleader3
-set_country_flag = sphered_UKR
-set_country_flag = sphered_BLR
-set_country_flag = sphered_EST
-set_country_flag = sphered_RFN
-set_country_flag = sphered_KAZ
-set_country_flag = sphered_GOR
-set_country_flag = sphered_DAG
-
 # DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = EST
-		autonomous_state = autonomy_colony
-		freedom_level = 0.6
-	}
-	set_autonomy = {
-		target = UKR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.3
-	}
-	set_autonomy = {
-		target = BLR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.3
-	}
-	set_autonomy = {
-		target = RFN
-		autonomous_state = autonomy_colony
-		freedom_level = 0.8
-	}
-	set_autonomy = {
-		target = KAZ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = DAG
-		autonomous_state = autonomy_colony
-		freedom_level = 0.1
-	}
-	set_autonomy = {
-		target = GOR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.1
-	}
-	else = {
-		puppet = EST
-		puppet = UKR
-		puppet = BLR
-		puppet = RFN
-		puppet = KAZ
-		puppet = DAG
-		puppet = GOR
-	}
-}
 
 set_politics = {
 
@@ -148,27 +85,13 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = 3rd_international
-add_to_faction = SOV
-add_to_faction = EST
-add_to_faction = UKR
-add_to_faction = BLR
-add_to_faction = RFN
-add_to_faction = KAZ
-add_to_faction = DAG
-add_to_faction = GOR
-
 add_ideas = {
-	SOV_Bread
-	SOV_Peace
-	SOV_Labour
 	#high_popularity
 	GEN_Mathias_Hansen_hog_lis
 	GEN_Edgar_Hovda_for_lis
 	GEN_Karl_Mork_eco_lis
 	GEN_Lars_Egner_sec_lis
 }
-set_cosmetic_tag = SOV_RUS
 
 create_country_leader = {
 	name = "Sergey Kirov"

@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = LAT
+		owner = LIT
 		victory_points = {
 			3194 1 
 		}
@@ -20,11 +20,10 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = LAT
-		add_core_of = EST
+		add_core_of = LIT
 	}
 
 	provinces={
-		3194 3296 3319 3525 6322 6342 9262 11246
+		3194 3296 3319 6322 9262 11246
 	}
 }
