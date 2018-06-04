@@ -9,14 +9,11 @@ state=
 	
 	history=
 	{
-		owner = CEN
+		owner = BOH
 		buildings = {
 			infrastructure = 7
 		}
-		add_core_of = CEN
 		add_core_of = BOH
-		add_core_of = STD
-		add_core_of = MRV
 	}
 	provinces= {
 		421 3414 3583 6485

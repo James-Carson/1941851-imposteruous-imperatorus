@@ -38,9 +38,6 @@ set_technology = {
 }
 
 add_ideas = {
-	SOV_Bread
-	SOV_Peace
-	SOV_Labour
 	GEN_Mathias_Hansen_hog_lis
 	GEN_Edgar_Hovda_for_lis
 	GEN_Karl_Mork_eco_lis
@@ -54,10 +51,10 @@ set_politics = {
 			popularity = 29
 		}
 		collectivist = {
-			popularity = 23
+			popularity = 0
 		}
 		libertarian_socialist = {
-			popularity = 48
+			popularity = 0
 		}
 		social_democrat = {
 			popularity = 0
@@ -75,7 +72,7 @@ set_politics = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 50
 		}
 		national_populist = {
 			popularity = 0
@@ -85,7 +82,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = paternal_autocrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -96,7 +93,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
-    ideology = social_conservative_subtype
+    ideology = paternal_autocrat_subtype
     traits = {
         #
     }

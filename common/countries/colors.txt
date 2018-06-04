@@ -147,8 +147,8 @@ ROM = {
 	color_ui = rgb { 242 205 94 } #KR uses 208 184 73, should we do the same?
 }
 BOS = {
-	color = rgb { 124 152 0 }
-	color_ui = rgb { 130 157 6 }
+	color = rgb { 190 190 120 } #May be a bit too similar to other pale yellow colours
+	color_ui = rgb { 190 190 120 }
 }
 SWI = {
 	color = rgb { 150 15 15 }
@@ -429,8 +429,8 @@ IND = {
 }
 
 CRO = {
-	color = rgb { 40  150  130 } #130  70  180 
-	color_ui = rgb { 130 75 182 }
+	color = rgb { 190  0  190 } #BLURPLE, may change
+	color_ui = rgb { 190 0 190 }
 }
 
 PRC = {
@@ -489,8 +489,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 155 17 65 } #Old one was 0  80  230. I can't be arsed to make cosmetic tags work, so I suppose they'll have this as their default color.
-	color_ui = rgb { 155 17 65 }	
+	color = rgb { 150 90 0 }
+	color_ui = rgb { 150 90 0 }	
 }
 
 FRP = {
@@ -559,8 +559,8 @@ KUR = {
 }
 
 BLR = {
-	color = rgb { 155 17 65 } #Original is 180 220 190
-	color_ui = rgb { 155 17 65 }
+	color = rgb { 70 0 190 } #Maybe a bit more blue?
+	color_ui = rgb { 70 0 190 }
 }
 MAN = {
 	color = rgb { 190 170 25 } #Formerly 235 187 0
@@ -814,8 +814,8 @@ SRV = {
 }
 
 BOH = {
-	color = rgb { 76 79 104 }
-	color_ui = rgb { 76 79 104 }
+	color = rgb { 185 150 0 }
+	color_ui = rgb { 185 150 0 }
 }
 
 MRV = {
@@ -928,3 +928,24 @@ GRP = {
 	color_ui = rgb { 143 147 155 }
 }
 
+#New Caesarreich tags
+
+CRI = {
+	color = rgb { 120 120 120 }
+	color_ui = rgb { 120 120 120 }
+}
+
+DAN = {
+	color = rgb { 225  30  30 }
+	color_ui = rgb { 225  30  30 }
+}
+
+MOL = {
+	color = rgb { 225  180  0 }
+	color_ui = rgb { 225  180  0 }
+}
+
+WLC = {
+	color = rgb { 250 220 120 }
+	color_ui = rgb { 250 220 120 }
+}

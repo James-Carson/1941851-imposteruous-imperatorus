@@ -217,4 +217,12 @@ NFQ = "countries/NFQ.txt"
 
 ZSR = "countries/ZSR.txt"
 
+
 RUS = "countries/Russia.txt"
+
+#New Caesarreich tags
+
+CRI = "countries/Crimea.txt"
+DAN = "countries/Danubia.txt"
+MOL = "countries/Moldovia.txt"
+WLC = "countries/Wallachia.txt"

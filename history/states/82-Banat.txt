@@ -10,14 +10,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = TRA
+		owner = DAN
 		victory_points = {
 			9606 3
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_claim_by = ROM
+		add_core_of = DAN
 	}
 
 	provinces={

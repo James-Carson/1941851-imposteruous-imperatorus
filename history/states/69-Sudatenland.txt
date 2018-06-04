@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CEN
+		owner = BOH
 		buildings = {
 			infrastructure = 8
 			anti_air_building = 1
@@ -38,9 +38,7 @@ state={
 			}
 
 		}
-		add_core_of = CEN
 		add_core_of = BOH
-		add_core_of = STD
 		add_claim_by = GER
 	}
 

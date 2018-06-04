@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ROM
+		owner = WLC
 		victory_points = {
 			9617 20 
 		}
@@ -32,6 +32,7 @@ state={
 			}
 
 		}
+		add_core_of = WLC
 		add_core_of = ROM
 
 	}
