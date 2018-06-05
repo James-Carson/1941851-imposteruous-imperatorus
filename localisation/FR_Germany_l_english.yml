@@ -1,16 +1,8 @@
 ﻿l_english:
 
-GER_FUHRERREICH_DESC:0 "It has been 17 years since the end of the Great War. The war left Europe in decay, but with it, The German Empire rose as a superpower. Having allied to the Americans, the Empire managed to have a glorious victory agaisnt the Entente, since then, Germany dictated the European Politics, and they spread their influence all across the globe. Now they are the most powerful colonial empire and the European superpower. But not everyone agrees with their politics, and now Germany is surrounded by enemies on all sides. The threat of Socialism grows as the Danubian Federation grows stronger, Britain and Italy are ruled by dictators who want to shatter Wilhelm's empire. But Germany will not surrender!"
+GER_CAESARREICH_DESC:0 "It has been 17 years since the end of the Great War. The war left Europe in decay, but with it, The German Empire rose as a superpower. Having allied to the Americans, the Empire managed to have a glorious victory agaisnt the Entente, since then, Germany dictated the European Politics, and they spread their influence all across the globe. Now they are the most powerful colonial empire and the European superpower. But not everyone agrees with their politics, and now Germany is surrounded by enemies on all sides. The threat of Socialism grows as the Danubian Federation grows stronger, Britain and Italy are ruled by dictators who want to shatter Wilhelm's empire. But Germany will not surrender!"
 
 #### Parties ####
-GER_valkist_party:0 "Valkistische Deutsche Volkspartei"
-GER_valkist_party_long:0 "Valkistische Deutsche Volkspartei"
-GER_vanguardist_party:0 "Internationale Kommunisten Deutschlands"
-GER_vanguardist_party_long:0 "Internationale Kommunisten Deutschlands"
-GER_collectivist_party:0 "Deutsche Kommunistische Partei"
-GER_collectivist_party_long:0 "Deutsche Kommunistische Partei"
-GER_libertarian_socialist_party:0 "Antivalkistischer Roter Kampfverbund"
-GER_libertarian_socialist_party_long:0 "Antivalkistischer Roter Kampfverbund"
 GER_social_democrat_party:0 "Sozialdemokratische Partei Deutschlands"
 GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
 GER_social_liberal_party:0 "Deutsche Demokratische Partei"
@@ -23,12 +15,18 @@ GER_authoritarian_democrat_party:0 "Monarchistische Deutsche Bewegung"
 GER_authoritarian_democrat_party_long:0 "Monarchistische Deutsche Bewegung"
 GER_paternal_autocrat_party:0 "Deutschnationale Front"
 GER_paternal_autocrat_party_long:0 "Deutschnationale Front"
-GER_national_populist_party:0 "Reichspartei Schwarz-Weiß-Rot"
-GER_national_populist_party_long:0 "Reichspartei Schwarz-Weiß-Rot"
 
 
 
 #### Ideas ####
+GER_victor_of_the_guerra_mondiale:0 "Victor of the Guerra Mondiale"
+GER_liberal_revolts:0 "Liberal Revolts"
+GER_socialist_revolts:0 "Socialist Revolts"
+GER_separatist_revolts:0 "Separatist Revolts"
+GER_cost_of_1919:0 "The Cost of 1919"
+GER_cost_of_1919_desc:0 "The multiple interventions in 1919 directly after the war strained our economy severely, and caused a war-exhausted population to lose a lot of support for the government, as well as demoralizing the army. As it stands, an offensive war or intervention is out of the question."
+GER_bulwark_of_the_status_quo:0 "Bulwark of the Status Quo"
+
 GER_nation_reborn:0 "A Nation Reborn"
 GER_nation_reborn_desc:0 "Our great country was immeasurably humiliated at the tables of Versailles. So many lands that were predominantly German were handed away like unwanted pocket change. The new destiny of the German people is to right these wrongs. The Reichsadler will rise again, like a phoenix from the ashes. Germany will stretch from the Meuse to Neman once more; but not under a Kaiser. This time it will be under our Führer."
 GER_military_reformed:0 "Military Reformed"
@@ -266,6 +264,14 @@ GER_public_bonus:0 "Public Education Funding"
 GER_public_bonus_desc:0 "Education is a right for all Germans. A nation such as our needs a well educated populace to lead it to long term glory. We should increase funding for public education to help achieve this goal."
 
 #### Focuses ####
+GER_domestic_cleanup:0 "Domestic Cleanup"
+GER_put_down_liberals:0 "Put down Liberals"
+GER_put_down_socialists:0 "Put down Socialists"
+GER_put_down_separatists:0 "Put down Separatism"
+
+
+
+
 GER_conscription_policy:0 "Conscription Policy"
 GER_conscription_policy_desc:0 "The growing tensions with the French Republic are gearing towards open conflict, Possibly the deadliest ever to be seen in Europe. More men are desperately needed to fill our division requirements."
 GER_ae_community:0 "Anti-Entente Community"

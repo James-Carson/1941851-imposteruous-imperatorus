@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = DML
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0
@@ -21,6 +21,7 @@ state={
 		victory_points = {
 			2050 1 
 		}
+		add_core_of = DML
 		add_core_of = NIG
 
 	}

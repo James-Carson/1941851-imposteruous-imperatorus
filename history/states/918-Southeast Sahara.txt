@@ -3,7 +3,8 @@ state={
 	name="STATE_918"
 
 	history={
-		owner = NFQ
+		owner = DML
+		add_core_of = DML
 		add_core_of = NFQ
 		buildings = {
 			infrastructure = 2

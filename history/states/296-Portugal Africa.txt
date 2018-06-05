@@ -9,8 +9,8 @@ state={
 		rubber=1.0
 	}
 	history={
-		owner = PRR
-		add_core_of = PRR
+		owner = POR
+		add_core_of = POR
 		buildings = {
 			infrastructure = 2
 			12891 ={

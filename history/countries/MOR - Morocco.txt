@@ -1,8 +1,6 @@
 ﻿
 capital = 898
 
-oob = "MOR"
-
 set_stability = 0.67
 set_war_support = 0.22
 
@@ -36,14 +34,6 @@ add_ideas = {
 	GEN_Eros_Berna_eco_mli
 	GEN_Fleano_Carideo_sec_mli
 }
-
-set_cosmetic_tag = MOR_FRA
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
 
 set_politics = {
 
@@ -83,7 +73,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -95,7 +85,7 @@ create_country_leader = {
 	desc = "FUCKING_MOROCCO_desc"
 	picture = "Portrait_MOR_Edgard_de_Larminat.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}

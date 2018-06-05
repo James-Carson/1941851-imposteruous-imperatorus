@@ -1,7 +1,5 @@
 ﻿capital = 64
 
-oob = "GER_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -39,76 +37,84 @@ set_technology = {
 }
 
 add_ideas = {
-	low_economic_mobilisation 
+	GER_victors_of_the_guerra_mondiale
+	GER_liberal_revolts
+	GER_socialist_revolts
+	GER_separatist_revolts
+	GER_cost_of_1919
+	GER_bulwark_of_the_status_quo
+	peacetime_demobilization
 	limited_exports
-	GER_Anton_Arco_Valley_val
-	GER_Alfred_Rosenberg_for_val
-	GER_Adolf_Hitler_eco_val
-	GER_Hermann_Ehrhardt_sec_val
 }
 
 set_country_flag = has_ministers
 
+create_faction = "Eintracht von Europa"
+add_to_faction = POL
+add_to_faction = UKR
+add_to_faction = BLR
+add_to_faction = LIT
+add_to_faction = EST
 
-set_country_flag = great_power_2
-set_country_flag = sphered_HOL
-save_global_event_target_as = sphereleader2
+puppet = CRI
+CRI = { set_cosmetic_tag = GER_Crimea }
 
-create_faction = Stahlpakt
-add_to_faction = GER
-add_to_faction = HOL
+puppet = MOR
+MOR = { set_cosmetic_tag = GER_Morroco }
+
+puppet = BEL
 
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.80
+set_stability = 0.95
 set_war_support = 0.50
 
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
+		utopianism = {
+		   popularity = 3
 		}
-		collectivist = {
-			popularity = 8
+		council_communist = {
+		    popularity = 19
 		}
-		libertarian_socialist = {
-			popularity = 1
+		socialist = {
+		    popularity = 5
 		}
 		social_democrat = {
-			popularity = 1
-		}
-		social_liberal = {
-			popularity = 1
+			popularity = 7
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 21
 		}
 		social_conservative = {
-			popularity = 15
+			popularity = 4
 		}
 		authoritarian_democrat = {
-			popularity = 40
+			popularity = 25
 		}
 		paternal_autocrat = {
-			popularity = 1
-		}
-		national_populist = {
-			popularity = 13
-		}
-		valkist = {
-			popularity = 14
+			popularity = 16
 		}
 	}
 	
 	ruling_party = authoritarian_democrat
-	last_election = "1933.3.5"
+	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = "Portrait_Germany_Wilhelm_II.dds"
+	expire = "1950.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "Adam Dressler"
@@ -126,16 +132,6 @@ create_country_leader = {
 	picture = "Portrait_Germany_Hermann_Goring.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Wilhelm_II.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
 	traits = {
 	}
 }
@@ -643,55 +639,3 @@ create_navy_leader = {
 	id = 31
 }
 
-
-### Ship Variants ###
-## 1936 Start ##
-# Light Cruisers #
-create_equipment_variant = {
-	name = "Königsberg Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-	obsolete = yes
-}
-# Heavy Cruisers #
-create_equipment_variant = {
-	name = "Deutschland Class"
-	type = heavy_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_armor_upgrade = 1
-		ship_gun_upgrade = 2
-	}
-}
-
-create_equipment_variant = {
-	name = "Ju 86"
-	type = tac_bomber_equipment_0
-	upgrades = {
-		plane_tac_bomb_upgrade = 5
-		plane_range_upgrade = 5
-		plane_engine_upgrade = 5
-		plane_reliability_upgrade = 10
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Do 17"
-	type = tac_bomber_equipment_0
-	upgrades = {
-		plane_tac_bomb_upgrade = 5
-		plane_range_upgrade = 1
-		plane_engine_upgrade = 1
-		plane_reliability_upgrade = 5
-	}
-	obsolete = yes
-}

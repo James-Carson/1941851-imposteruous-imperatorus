@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = NFQ
+		owner = DML
+		add_core_of = DML
 		add_core_of = NFQ
 		victory_points = {
 			8193 2 

@@ -1,0 +1,70 @@
+###############
+#GERMANY IDEAS#
+###############
+
+ideas = {
+
+	## German Ideas ##
+
+	country = {
+
+		GER_victor_of_the_guerra_mondiale = {
+			picture = idea_victors_of_the_great_war
+			modifier = {
+			 surrender_limit = 0.20
+			}
+			research_bonus = {
+				land_doctrine = -0.7
+				naval_doctrine = -0.7
+				air_doctrine = -0.7
+			}
+		}
+
+		GER_liberal_revolts = {
+			picture = idea_generic_democratic_drift
+			modifier = {
+			 stability_factor = -0.15
+			 political_power_gain = -0.25
+			 political_power_factor = -0.25
+			}
+		}
+
+		GER_socialist_revolts = {
+			picture = idea_generic_democratic_drift
+			modifier = {
+			 stability_factor = -0.15
+			 production_speed_buildings_factor = -0.25
+			 industrial_capacity_factory = -0.25
+			}
+		}
+
+		GER_separatist_revolts = {
+			picture = idea_generic_democratic_drift
+			modifier = {
+			 stability_factor = -0.25
+			 conscription_factor = -0.25
+			}
+		}
+	
+		GER_cost_of_1919 = {
+			picture = idea_the_war_to_end_all_wars
+			modifier = {
+			 consumer_goods_factor = 0.15
+			 war_support_factor = -0.50
+			 army_org_Factor = -0.15
+
+			 generate_wargoal_tension = 1.00
+			 ai_focus_aggressive_factor = -1.00
+			}
+		}
+
+		GER_bulwark_of_the_status_quo = {
+			picture = idea_generic_democratic_drift
+			modifier = {
+			send_volunteer_size = 5
+			send_volunteers_tension = -0.90
+			}
+		}
+
+		}
+	}

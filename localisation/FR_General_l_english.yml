@@ -57,12 +57,12 @@ GENERATING_GRADIENT_BORDERS:0 "Creating a Coalition"
 ### Name and Description ###
 BM_HISTORY_TITLE:0 "Brief History"
 
-FUHRERREICH_NAME:0 "Legacy of the Great War"
+CAESARREICH_NAME:0 "Legacy of the Guerra Mondiale"
 
-FUHRERREICH_DESC:0 "The end of the Great War saw the empires of the old—the Ottomans, the Austrians, and the Germans—fall greatly in both power and influence while the United States, Britain, and France have risen. While the Great War was thought by many to usher in a new era of peace, it seems that the tensions of old have not yet faded away and, with them, could threaten the tenuous peace that remains..."
+CAESARREICH_DESC:0 "Insert Description Here later, lore guys."
 
 ###OTHER COUNTRIES DESC###
-OTHER_FUHRERREICH_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the valkists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
+OTHER_CAESARREICH_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the valkists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
 
 ###LEADER DESCRIPTIONS###
 POLITICS_GEORGE_V_DESC:0 "George V of Windsor is the King-Emperor of the British Empire, more than just in name. Reigning nearly 3 times longer than his father, Edward VII, he has risen to become one of the most beloved Monarchs in British history. Under his reign the British Empire has once again asserted itself as the Global Hegemon and has economically eclipsed both their rivals and former allies following the Empire's return to Splendid Isolation. However, his invincible image does not entirely live up to reality. As the years march forward, King George's health has been steadily deteriorating, forcing him allow his son, Prince Edward, to assume a portion of his duties. Some of the Empire's finest medical experts expect him to live another 10 years at minimum, although King George privately holds an opinion to the contrary, despite his often stoic nature."

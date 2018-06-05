@@ -1,10 +1,10 @@
 bookmarks = {
 	bookmark = {
-		name = "FUHRERREICH_NAME"
-		desc = "FUHRERREICH_DESC"
+		name = "CAESARREICH_NAME"
+		desc = "CAESARREICH_DESC"
 		date = 1936.1.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "ENG"
+		default_country = "ITA"
 		default = yes
 
 		"USA"={
@@ -37,17 +37,17 @@ bookmarks = {
 		}
 
 		"GER"={
-			history = "GER_FUHRERREICH_DESC"
-			ideology = valkist
+			history = "GER_CAESARREICH_DESC"
+			ideology = authoritarian_democrat
 			ideas = {
-				GER_nation_reborn
-				GER_naval_treaty
-				GER_army_treaty
+			 GER_victor_of_the_guerra_mondiale
+			 GER_liberal_revolts
+			 GER_socialist_revolts
+			 GER_separatist_revolts
+			 GER_cost_of_1919
+			 GER_bulwark_of_the_status_quo
 			}
 			focuses = {
-				GER_pangerman
-				GER_spark_lits
-				GER_invade_benelux
 			}
 		}
 

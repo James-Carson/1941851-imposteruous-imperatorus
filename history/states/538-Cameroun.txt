@@ -9,10 +9,11 @@ state={
 		rubber=5.0
 	}
 	history={
-		owner = BEL
+		owner = DML
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = DML
 		add_core_of = COG
 	}
 
