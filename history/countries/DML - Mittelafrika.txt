@@ -34,15 +34,6 @@ set_cosmetic_tag = GER_DML
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 6
 		}
@@ -60,12 +51,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 1
-		}
-		national_populist = {
-			popularity = 1
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	
