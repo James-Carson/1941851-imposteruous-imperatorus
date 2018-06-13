@@ -1,7 +1,5 @@
 ﻿capital = 803
 
-oob = "INF"
-
 set_research_slots = 3
 set_stability = 0.55
 set_war_support = 0.55
@@ -19,25 +17,13 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 1
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 4
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 5
 		}
 		authoritarian_democrat = {
@@ -45,12 +31,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 27
-		}
-		national_populist = {
-			popularity = 28
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	
@@ -66,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_MIKLAS_DESC"
 	picture = "Portrait_Wilhelm_Miklas.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

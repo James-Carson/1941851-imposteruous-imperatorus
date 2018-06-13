@@ -1,17 +1,10 @@
 ﻿capital = 110
 
-oob = "NOR_1936"
-
 set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
-	low_popularity
-	
-	NOR_monarchist_right_idea
-	NOR_war_on_samfundsvernet_idea
-	NOR_socialism_surrounded_idea
-	
+	low_popularity	
 	#Ministers#
 	NOR_Alfred_Madsen_hog_lso
 	NOR_Nordahl_Grieg_for_col
@@ -35,30 +28,17 @@ set_technology = {
 set_convoys = 125		# biggest merchant marine in the world
 set_stability = 0.57
 set_war_support = 0.52
-add_manpower = 45000
 
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 2
-		}
-		collectivist = {
-			popularity = 8
-		}
-		libertarian_socialist = {
-			popularity = 35
-		}
 		social_democrat = {
 			popularity = 7
 		}
-		social_liberal = {
-			popularity = 13
+		liberal = {
+			popularity = 50
 		}
-		market_liberal = {
-			popularity = 19
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 5
 		}
 		authoritarian_democrat = {
@@ -67,15 +47,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 3
 		}
-		national_populist = {
-			popularity = 2
-		}
-		valkist = {
-			popularity = 2
-		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -131,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
 	picture = "Portrait_Johan_Ludwig_Mowinckel.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -142,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_INGOLF_ELSTER_CHRISTENSEN_DESC"
 	picture = "Portrait_Ingolf_Elster_Christensen.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

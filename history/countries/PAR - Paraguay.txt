@@ -1,7 +1,5 @@
 ﻿capital = 301
 
-oob = "PAR_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -25,30 +23,9 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		collectivist = { 
-			popularity = 5
-		}
-		libertarian_socialist = { 
-			popularity = 6
-		}
-		vanguardist = { 
-			popularity = 0
-		}
-		market_liberal = { 
-			popularity = 11
-		}
-		social_conservative = { 
+		conservative = { 
 			popularity = 30
-		}
-		social_liberal = { 
-			popularity = 10
-		}
-		national_populist = {
-			popularity = 2
-		}
-		valkist = {
-			popularity = 2
-		}		
+		}	
 		social_democrat = {
 			popularity = 14
 		}
@@ -60,7 +37,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -91,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_JuanmaFruc_DESC"
 	picture = "JuanManuelFructos.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

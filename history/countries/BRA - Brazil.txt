@@ -8,7 +8,6 @@ add_ideas = {
 	GEN_Eros_Berna_eco_mli
 	GEN_Fleano_Carideo_sec_mli
 }
-oob = "BRA_1936"
 set_research_slots = 3
 # Starting tech
 set_technology = {
@@ -29,31 +28,21 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
+		conservative = { 
 			popularity = 10
 		}
-		market_liberal = { 
+		liberal = { 
 			popularity = 30
 		}
 		paternal_autocrat = {
 			popularity = 20
-		}
-		valkist = {
-			popularity = 5
 		}		
-		collectivist = {
-			popularity = 25
-		}
-		libertarian_socialist = {
-			popularity = 5
-		}		
-
 		authoritarian_democrat = { 
 			popularity = 5
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = liberal
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -118,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_ARMANDO_SALES_DESC"
 	picture = "ArmandoSalles.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

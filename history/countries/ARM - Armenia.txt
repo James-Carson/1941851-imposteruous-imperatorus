@@ -1,7 +1,5 @@
 ﻿capital = 230 #Yerevan, Armenia
 
-oob = "ARM_1936"
-
 set_research_slots = 3
 set_stability = 0.50
 set_war_support = 0.50
@@ -50,25 +48,13 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 3
-		}
-		collectivist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
-			popularity = 10
-		}
 		social_democrat = {
 			popularity = 4
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 32
 		}
-		market_liberal = {
-			popularity = 4
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 41
 		}
 		authoritarian_democrat = {
@@ -85,7 +71,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -108,7 +94,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_ARM_Hovhannes_Kajaznuni.dds"
 	expire = "1953.3.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}

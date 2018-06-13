@@ -1,7 +1,5 @@
 ﻿capital = 46
 
-oob = "ROM_1936"
-
 set_research_slots = 3
 set_stability = 0.34
 set_war_support = 0.40
@@ -26,84 +24,29 @@ set_technology = {
 	transport = 1
 }
 
-add_ideas = {
-	GEN_Paul_Muller_hog_npo
-	GEN_Petre_Radu_for_npo
-	GEN_Mihail_Galca_eco_npo
-	GEN_Boian_Petrescu_sec_npo
-}
-
-#Ideas
-#if = {
-#	limit = {
-#		has_dlc = "Death or Dishonor"
-#	}
-#	add_ideas = {
-#		ROM_king_carol_ii_hedonist
-#	}
-#	give_guarantee = CZE
-#	give_guarantee = GRE
-#	give_guarantee = TUR
-#}
-#add_ideas = neutrality_idea
-
-#Kick off kings crazy life
-#if = {
-#	limit = {
-#		has_dlc = "Death or Dishonor"
-#	}
-#	ROM = {
-#		#Pick from list of the sane events first
-#		random_list = {
-#			100 = { country_event = { id = DOD_romania.81 days = 2 random = 20 } }
-#		}
-#	}
-#}
-
-
 set_convoys = 10
-
-give_guarantee = TRA
 
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 2
-		}
-		collectivist = {
-			popularity = 5
-		}
-		libertarian_socialist = {
-			popularity = 3
-		}
 		social_democrat = {
 			popularity = 15
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 14
 		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 16
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 3
-		}
-		national_populist = {
-			popularity = 42
-		}
-		valkist = {
-			popularity = 0
+			popularity = 50
 		}
 	}
 	
-	ruling_party = national_populist
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

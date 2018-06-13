@@ -1,7 +1,5 @@
 ﻿capital = 302
 
-oob = "BOL_1936"
-
 add_ideas = {
 	civilian_economy
 	export_focus
@@ -30,46 +28,23 @@ set_war_support = 0.4
 set_politics = {
 
 	parties = {
-
-		libertarian_socialist = {
-			popularity = 10
-		}
 		social_democrat = { 
 			popularity = 10
 		}
-
-		national_populist = {
-			popularity = 5
-		}
 		
-		valkist = {
-			popularity = 20
-		}
-
-		vanguardist = {
-			popularity = 15
-		}
-
-		collectivist = {
-			popularity = 20
-		}
-
-		social_conservative = { 
+		conservative = { 
 			popularity = 10
 		}
 
-		market_liberal = { 
-			popularity = 0
-		}
-		social_liberal = { 
-			popularity = 10
+		liberal = { 
+			popularity = 35
 		}		
 		authoritarian_democrat = { 
 			popularity = 5
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = no
@@ -80,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "JoseLuisTejada.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -90,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "BautistaSaavedra.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

@@ -1,7 +1,5 @@
 ﻿capital = 605 # Sichuan
 
-oob = "SCH"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -28,25 +26,10 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 4
-		}
 		social_democrat = {
 			popularity = 0
 		}
-		social_liberal = {
-			popularity = 4
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 51
 		}
 		authoritarian_democrat = {
@@ -55,15 +38,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_DENG_XIHOU_DESC"
 	picture = "Portrait_Sichuan_Deng_Xihou.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype  
+	ideology = conservative_subtype  
 	traits = {
 		#
 	}

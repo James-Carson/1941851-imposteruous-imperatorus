@@ -1,7 +1,5 @@
 ﻿capital = 11
 
-oob = "LIT"
-
 set_research_slots = 3
 
 add_ideas = {
@@ -28,13 +26,10 @@ set_politics = {
 		social_democrat = {
 			popularity = 0
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 8
 		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 5
 		}
 		authoritarian_democrat = {
@@ -42,12 +37,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 49
-		}
-		national_populist = {
-			popularity = 18
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	

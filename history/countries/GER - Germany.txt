@@ -87,10 +87,10 @@ set_politics = {
 		social_democrat = {
 			popularity = 7
 		}
-		market_liberal = {
+		liberal = {
 			popularity = 21
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 4
 		}
 		authoritarian_democrat = {

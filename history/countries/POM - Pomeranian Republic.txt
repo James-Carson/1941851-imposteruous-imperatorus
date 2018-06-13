@@ -1,7 +1,5 @@
 ﻿capital = 62
 
-oob = "POM"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -49,25 +47,13 @@ set_war_support = 0.40
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 2
-		}
-		collectivist = {
-			popularity = 5
-		}
-		libertarian_socialist = {
-			popularity = 8
-		}
 		social_democrat = {
 			popularity = 30
 		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 10
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 40
 		}
 		authoritarian_democrat = {
@@ -76,15 +62,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 2
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -136,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_HERBERT_VON_BISMARCK_DESC"
 	picture = "Portrait_Pomerania_Herbert_von_Bismarck.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 	}
 }

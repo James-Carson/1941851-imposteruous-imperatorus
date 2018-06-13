@@ -1,13 +1,10 @@
 ﻿capital = 105 # Montenegro
 
-#oob = "INF"
-
 set_research_slots = 3
 set_stability = 0.56
 set_war_support = 0.51
 
 # Starting tech
-# clone of Yugoslavia
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
@@ -32,25 +29,13 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 1
-		}
-		collectivist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
-			popularity = 1
-		}
 		social_democrat = {
 			popularity = 3
 		}
-		social_liberal = {
-			popularity = 6
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 17
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 19
 		}
 		authoritarian_democrat = {
@@ -58,12 +43,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 27
-		}
-		national_populist = {
-			popularity = 8
-		}
-		valkist = {
-			popularity = 4
 		}
 	}
 	

@@ -1,7 +1,5 @@
 ﻿capital = 500
 
-
-oob = "BRA_1936"
 set_research_slots = 3
 # Starting tech
 set_technology = {
@@ -22,28 +20,15 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
+		conservative = { 
 			popularity = 5
 		}
-		market_liberal = { 
+		liberal = { 
 			popularity = 7
-		}
-		national_populist = {
-			popularity = 10
-		}
-		valkist = {
-			popularity = 19
 		}
 		paternal_autocrat = {
 			popularity = 42
-		}		
-		collectivist = {
-			popularity = 6
-		}
-		libertarian_socialist = {
-			popularity = 6
-		}		
-
+		}			
 		authoritarian_democrat = { 
 			popularity = 5
 		}

@@ -1,7 +1,5 @@
 ﻿capital = 304
 
-oob = "PAN_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -21,25 +19,10 @@ add_ideas = {
 
 set_politics = {
 	parties = {
-		vanguardist = {
-			popularity = 3
-		}
-		collectivist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
-			popularity = 3
-		}
 		social_democrat = {
 			popularity = 31
 		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 45
 		}
 		authoritarian_democrat = {
@@ -48,14 +31,8 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 2
 		}
-		national_populist = {
-			popularity = 8
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -66,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
 	picture = "GFX_portrait_panama_harmodio_arias_madrid"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -77,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
 	picture = "GFX_portrait_panama_harmodio_arias_madrid"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

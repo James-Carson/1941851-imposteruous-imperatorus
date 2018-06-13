@@ -1,7 +1,5 @@
 ﻿capital = 408
 
-oob = "INF"
-
 add_ideas = {
 	FER_cossack_mil
 	GEN_Hugo_Bernard_hog_sli
@@ -49,25 +47,13 @@ set_war_support = 0.61
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 1
-		}
-		collectivist = {
-			popularity = 2
-		}
-		libertarian_socialist = {
-			popularity = 3
-		}
 		social_democrat = {
 			popularity = 5
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 27
 		}
-		market_liberal = {
-			popularity = 6
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 8
 		}
 		authoritarian_democrat = {
@@ -76,15 +62,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 13
 		}
-		national_populist = {
-			popularity = 23
-		}
-		valkist = {
-			popularity = 2
-		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1922.12.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -95,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
 	picture = "portrait_FER_Grigory_Mikhaylovich_Semyonov.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		
 	}
@@ -106,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
 	picture = "portrait_FER_Grigory_Mikhaylovich_Semyonov.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		
 	}
@@ -117,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
 	picture = "portrait_FER_Grigory_Mikhaylovich_Semyonov.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}

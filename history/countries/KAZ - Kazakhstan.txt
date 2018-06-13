@@ -1,7 +1,5 @@
 ﻿capital = 586 #Almaty
 
-oob = "SSR"
-
 set_research_slots = 3
 set_stability = 0.55
 set_war_support = 0.50
@@ -39,18 +37,7 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_cosmetic_tag = KAZ_SSR
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_SOV
-set_country_flag = sphere_2_by_SOV
-set_country_flag = sphere_3_by_SOV
-add_ideas = sphered_idea_3
-
 add_ideas = {
-	SOV_Bread
-	SOV_Peace
-	SOV_Labour
 	GEN_Mathias_Hansen_hog_lis
 	GEN_Edgar_Hovda_for_lis
 	GEN_Karl_Mork_eco_lis
@@ -60,26 +47,14 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 13
-		}
-		collectivist = {
-			popularity = 5
-		}
-		libertarian_socialist = {
-			popularity = 60
-		}
 		social_democrat = {
 			popularity = 10
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 12
 		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
-			popularity = 0
+		conservative = {
+			popularity = 50
 		}
 		authoritarian_democrat = {
 			popularity = 0
@@ -87,15 +62,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = conservative
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -117,7 +86,7 @@ create_country_leader = {
 	desc = ""
 	picture = ""
 	expire = "1953.3.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}

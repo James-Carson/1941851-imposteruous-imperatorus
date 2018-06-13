@@ -1,10 +1,6 @@
 ﻿capital = 331
 
-oob = "NFL"
-
 set_research_slots = 3
-set_cosmetic_tag = NFL_DOM
-set_country_flag = monroe_doctrine
 
 # Starting tech
 set_technology = {
@@ -33,25 +29,13 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 7
-		}
 		social_democrat = {
 			popularity = 28
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 16
 		}
-		market_liberal = {
-			popularity = 3
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 36
 		}
 		authoritarian_democrat = {
@@ -60,16 +44,10 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 4
 		}
-		national_populist = {
-			popularity = 2
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 
 
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -131,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -141,7 +119,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -151,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_ANDERSON_DESC"
 	picture = "Portrait_David_Murray_Anderson.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

@@ -213,20 +213,11 @@ council_communist:0 "Council Communists"
 socialist:0 "Socialists"
 antiquarian_nationalist:0 "Antiquarian Nationalists"
 
-market_liberal:0 "Liberals"
+liberal:0 "Liberals"
 social_democrat:0 "Social Democrats"
-social_conservative:0 "Social Conservatives"
+conservative:0 "Conservatives"
 authoritarian_democrat:0 "Authoritarian Dem."
 paternal_autocrat:0 "Paternal Autocrats"
-#Remove these later.
-vanguardist:0 "Vanguardists"
-collectivist:0 "Collectivists"
-libertarian_socialist:0 "Libertarian Socialist"
-social_liberal:0 "Social Liberals"
-social_democrat:0 "Social Democrats"
-national_populist:0 "National Populists"
-valkist:0 "Valkists"
-
 ### Drift ###
 utopianism_drift:0 "Daily Utopianist support"
 council_communist_drift:0 "Daily Council Communist support"
@@ -234,18 +225,10 @@ socialist_drift:0 "Daily Socialist support"
 antiquarian_nationalist_drift:0 "Daily Antiquarian Nationalist support"
 
 social_democrat_drift:0 "Daily Social Democrat support"
-market_liberal_drift:0 "Daily Liberal support"
-social_conservative_drift:0 "Daily Social Conservative support"
+liberal_drift:0 "Daily Liberal support"
+conservative_drift:0 "Daily Conservative support"
 authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
 paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
-#Remove these later.
-vanguardist_drift:0 "Daily Vanguardist support"
-collectivist_drift:0 "Daily Collectivist support"
-libertarian_socialist_drift:0 "Daily Libertarian Socialist support"
-social_liberal_drift:0 "Daily Social Liberal support"
-national_populist_drift:0 "Daily National Populist support"
-valkist_drift:0 "Daily Valkist support"
-
 
 ### Banned ###
 utopianism_banned:0 "Banned Happinness" #change this later to Utopianism banned
@@ -254,17 +237,10 @@ socialist_banned:0 "Banned Socialists"
 antiquarian_nationalist_banned:0 "Banned Antiquarian Nationalists"
 
 social_democrat_banned:0 "Banned Social Democrats"
-market_liberal_banned:0 "Banned Liberals"
-social_conservative_banned:0 "Banned Social Conservatives"
+liberal_banned:0 "Banned Liberals"
+conservative_banned:0 "Banned Conservatives"
 authoritarian_democrat_banned:0 "Banned Authoritarian Democrats"
 paternal_autocrat_banned:0 "Banned Paternal Autocrats"
-#Remove these later.
-vanguardist_banned:0 "Banned Vanguardists"
-collectivist_banned:0 "Banned Collectivists"
-libertarian_socialist_banned:0 "Banned Libertarian Socialists"
-social_liberal_banned:0 "Banned Social Liberals"
-national_populist_banned:0 "Banned National Populists"
-valkist_banned:0 "Banned Valkists"
 
 ### Company Traits ###
 

@@ -1,9 +1,5 @@
 ﻿capital = 48
 
-oob = "BUL_1936"
-
-country_event = { id = bulgaria.1 days = 1}
-
 add_ideas = {
 	limited_conscription
 	GEN_Szymon_Kowalski_hog_ade
@@ -28,38 +24,20 @@ set_war_support = 0.60
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 19
-		}
-		collectivist = {
-			popularity = 17
-		}
-		libertarian_socialist = {
-			popularity = 7
-		}
 		social_democrat = {
 			popularity = 4
 		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 8
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 12
 		}
 		authoritarian_democrat = {
-			popularity = 18
+			popularity = 28
 		}
 		paternal_autocrat = {
 			popularity = 9
-		}
-		national_populist = {
-			popularity = 1
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	

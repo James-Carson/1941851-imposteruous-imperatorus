@@ -1,7 +1,5 @@
 ﻿capital = 615
 
-oob = "SHX_1936"
-
 set_stability = 0.50
 set_war_support = 0.50
 
@@ -20,19 +18,9 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
+		conservative = { 
 			popularity = 0
-		}
-
-		national_populist = {
-			popularity = 0
-		}
-		
-		collectivist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
+		}		
 		authoritarian_democrat = { 
 			popularity = 100
 		}
@@ -54,6 +42,6 @@ create_country_leader = {
 	}
 }
 
-add_ideas = {
-	part_of_beiyang_council
-}
+#add_ideas = {
+#	part_of_beiyang_council
+#}

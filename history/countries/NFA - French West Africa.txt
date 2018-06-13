@@ -1,7 +1,5 @@
 ﻿capital = 272
 
-oob = "NFA"
-
 set_research_slots = 3
 
 # Starting tech
@@ -40,36 +38,16 @@ set_convoys = 75
 set_stability = 0.46
 set_war_support = 0.63
 
-set_cosmetic_tag = NFA_FRA
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 2
-		}
 		social_democrat = {
 			popularity = 19
 		}
-		social_liberal = {
-			popularity = 4
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 2
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 12
 		}
 		authoritarian_democrat = {
@@ -77,12 +55,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 8
-		}
-		national_populist = {
-			popularity = 11
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	ruling_party = authoritarian_democrat

@@ -1,7 +1,5 @@
 ﻿capital = 800
 
-oob = "LMK"
-
 set_research_slots = 3
 
 add_ideas = {
@@ -21,25 +19,13 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 6
-		}
-		collectivist = {
-			popularity = 10
-		}
-		libertarian_socialist = {
-			popularity = 10
-		}
 		social_democrat = {
 			popularity = 5
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 15
 		}
-		market_liberal = {
-			popularity = 11
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 15
 		}
 		authoritarian_democrat = {
@@ -47,12 +33,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 30
-		}
-		national_populist = {
-			popularity = 8
-		}
-		valkist = {
-			popularity = 10
 		}
 	}
 	

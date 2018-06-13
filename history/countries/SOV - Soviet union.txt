@@ -44,42 +44,21 @@ set_war_support = 0.1
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 15
-		}
-		collectivist = {
-			popularity = 26
-		}
-		libertarian_socialist = {
-			popularity = 50
-		}
 		social_democrat = {
 			popularity = 8
 		}
-		social_liberal = {
-			popularity = 1
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
+			popularity = 70
 		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = paternal_autocrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

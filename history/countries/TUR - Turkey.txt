@@ -1,7 +1,5 @@
 ﻿capital = 341
 
-oob = "TUR_1936"
-
 set_research_slots = 3
 
 add_ideas = {
@@ -41,25 +39,13 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 3
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 42
 		}
-		market_liberal = {
-			popularity = 1
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 12
 		}
 		authoritarian_democrat = {
@@ -68,15 +54,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 5
 		}
-		national_populist = {
-			popularity = 10
-		}
-		valkist = {
-			popularity = 2
-		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,7 +67,7 @@ set_convoys = 20
 set_stability = 0.45
 set_war_support = 0.30
 
-country_event = { id = tur.1 days = 1 } #intro event
+#country_event = { id = tur.1 days = 1 } #intro event
 
 create_country_leader = {
 	name = "Şefik Hüsnü Bey"

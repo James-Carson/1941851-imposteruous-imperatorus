@@ -27,37 +27,19 @@ set_war_support = 0.6
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 10
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 30
 		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 50
 		}
 		authoritarian_democrat = {
 			popularity = 5
 		}
 		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
 			popularity = 0
 		}
 	}

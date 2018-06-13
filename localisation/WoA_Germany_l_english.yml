@@ -1,20 +1,34 @@
 ﻿l_english:
 
-GER_CAESARREICH_DESC:0 "It has been 17 years since the end of the Great War. The war left Europe in decay, but with it, The German Empire rose as a superpower. Having allied to the Americans, the Empire managed to have a glorious victory agaisnt the Entente, since then, Germany dictated the European Politics, and they spread their influence all across the globe. Now they are the most powerful colonial empire and the European superpower. But not everyone agrees with their politics, and now Germany is surrounded by enemies on all sides. The threat of Socialism grows as the Danubian Federation grows stronger, Britain and Italy are ruled by dictators who want to shatter Wilhelm's empire. But Germany will not surrender!"
+GER_CAESARREICH_DESC:0 " --- "
 
 #### Parties ####
-GER_social_democrat_party:0 "Sozialdemokratische Partei Deutschlands"
+GER_utopianist_party:0 "UPD"
+GER_utopianist_party_long:0 "Utopie Partei Deutschlands" #also overlook this.
+
+GER_council_communist_party:0 "Spartacist Kommunistiche Partei Deutchslands"
+GER_council_communist_party_long:0 "SKPD"
+
+GER_socialist_party:0 "SAPD"
+GER_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
+
+GER_social_democrat_party:0 "SPD"
 GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
-GER_social_liberal_party:0 "Deutsche Demokratische Partei"
-GER_social_liberal_party_long:0 "Deutsche Demokratische Partei"
-GER_market_liberal_party:0 "Deutsche Volkspartei"
-GER_market_liberal_party_long:0 "Deutsche Volkspartei"
-GER_social_conservative_party:0 "Zentrumspartei"
-GER_social_conservative_party_long:0 "Zentrumspartei"
-GER_authoritarian_democrat_party:0 "Monarchistische Deutsche Bewegung"
-GER_authoritarian_democrat_party_long:0 "Monarchistische Deutsche Bewegung"
-GER_paternal_autocrat_party:0 "Deutschnationale Front"
-GER_paternal_autocrat_party_long:0 "Deutschnationale Front"
+
+GER_liberal_party:0 "FVP"
+GER_liberal_party_long:0 "Fortschrittliche Volkspartei" #Change to just liberal
+
+GER_conservative_party:0 "DZS"
+GER_conservative_party_long:0 "Zentrumspartei"
+
+GER_authoritarian_democrat_party:0 "DKP"
+GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei"
+
+GER_paternal_autocrat_party:0 "DNVP"
+GER_paternal_autocrat_party_long:0 "Deutschnational Vaterlandspartei"
+
+GER_antiquarian_nationalist_party:0 "GRP"
+GER_antiquarian_nationalist_party_long:0 "Germanische Restaurationsparty" #This one will need to be changed, probably.
 
 
 

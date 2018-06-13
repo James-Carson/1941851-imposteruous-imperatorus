@@ -1,11 +1,8 @@
 ﻿capital = 336 #Kuala Lumpur
 
-oob = "MAL_1936"
-
 set_research_slots = 3
 
 # Starting tech
-# clone of UK
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -55,14 +52,7 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 33
-		}
-
-#		national_populist = {
-#		}
-		
-		collectivist = {
+		conservative = { 
 			popularity = 33
 		}
 		authoritarian_democrat = {
@@ -70,7 +60,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -82,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1953.3.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}
@@ -93,7 +83,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_malaya_shenton_thomas"
 	expire = "1953.3.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}

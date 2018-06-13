@@ -37,13 +37,10 @@ set_politics = {
 		social_democrat = {
 			popularity = 6
 		}
-		social_liberal = {
-			popularity = 12
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 49
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 30
 		}
 		authoritarian_democrat = {
@@ -70,15 +67,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Edgard de Larminat"
-	picture = "Portrait_MOR_Edgard_de_Larminat.tga"
-	traits = {  }
-	skill = 2
-	attack_skill = 3
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 2
 }

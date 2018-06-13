@@ -1,6 +1,6 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
+
 set_research_slots = 3
 add_ideas = {
 	civilian_economy
@@ -39,20 +39,12 @@ set_war_support = 0.31
 set_politics = {
 
 	parties = {
-		social_conservative = { 
+		conservative = { 
 			popularity = 12
 		}
 
 		social_democrat = { 
 			popularity = 4
-		}
-
-		social_liberal = { 
-			popularity = 6
-		}
-
-		market_liberal = { 
-			popularity = 8
 		}
 
 		authoritarian_democrat = { 
@@ -61,25 +53,6 @@ set_politics = {
 
 		paternal_autocrat = { 
 			popularity = 11
-		}
-
-		valkist = { 
-			popularity = 3
-		}
-
-		national_populist = {
-			popularity = 5
-		}
-		
-		collectivist = {
-			popularity = 3
-			#banned = no #default is no
-		}
-		vanguardist = {
-			popularity = 15
-		}
-		libertarian_socialist = {
-			popularity = 2
 		}
 
 	}

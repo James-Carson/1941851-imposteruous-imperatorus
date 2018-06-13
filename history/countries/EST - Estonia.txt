@@ -18,9 +18,6 @@ set_stability = 0.69
 set_war_support = 0.32
 
 add_ideas = {
-	SOV_Bread
-	SOV_Peace
-	SOV_Labour
 	GEN_Mathias_Hansen_hog_lis
 	GEN_Edgar_Hovda_for_lis
 	GEN_Karl_Mork_eco_lis
@@ -33,10 +30,7 @@ set_politics = {
 		social_democrat = {
 			popularity = 14
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 0
 		}
 		social_conservative = {
@@ -47,12 +41,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 40
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	

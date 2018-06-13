@@ -1,8 +1,6 @@
 ﻿capital = 10
 
-oob = "POL"
-
-country_event = { id = poland.1 days = 1 }
+#country_event = { id = poland.1 days = 1 }
 set_research_slots = 3
 set_stability = 0.40
 set_war_support = 0.45
@@ -26,50 +24,16 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 }
 
-give_guarantee = LAT
-give_guarantee = LIT
-puppet = LIT
-
-set_country_flag = sphered_LIT
-set_country_flag = sphered_LAT
-set_country_flag = great_power_8
-save_global_event_target_as = sphereleader8
-
-
-# DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = LIT
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.4
-	}
-}
-
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 10
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 25
 		}
-		market_liberal = {
-			popularity = 1
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 25
 		}
 		authoritarian_democrat = {
@@ -78,26 +42,12 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 4
 		}
-		national_populist = {
-			popularity = 5
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
 	ruling_party = authoritarian_democrat
 	last_election = "1935.11.8"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-add_ideas = {
-	POL_Lithuanian_unrest
-	limited_conscription
-	POL_poland_ab_idea
-	POL_advisors_council
-	low_popularity
 }
 
 create_country_leader = {

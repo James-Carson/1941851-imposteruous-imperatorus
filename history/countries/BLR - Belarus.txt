@@ -47,22 +47,10 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 29
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 0
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 0
 		}
 		social_conservative = {
@@ -73,12 +61,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 50
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	

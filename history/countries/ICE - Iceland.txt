@@ -1,7 +1,5 @@
 ﻿capital = 100 #Iceland
 
-oob = "ICE_1936"
-
 set_research_slots = 3
 
 add_ideas = {
@@ -31,16 +29,8 @@ set_politics = {
 		social_democrat = { 
 			popularity = 96
 		}
-
-		valkist = {
-			popularity = 2
-		}
-		
-		collectivist = {
-			popularity = 2
-		}
-		
-		social_conservative = {
+			
+		conservative = {
 			popularity = 0
 		}
 	}
@@ -56,7 +46,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}
@@ -78,7 +68,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

@@ -1,7 +1,5 @@
 ﻿capital = 294
 
-oob = "OMA_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -14,17 +12,8 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		social_conservative = {
+		conservative = {
 			popularity = 0
-		}
-
-		national_populist = {
-			popularity = 0
-		}
-		
-		collectivist = {
-			popularity = 0
-			#banned = no #default is no
 		}
 		
 		authoritarian_democrat = {

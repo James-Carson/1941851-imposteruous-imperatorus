@@ -1,7 +1,5 @@
 ﻿capital = 155
 
-oob = "HSR_1936"
-
 set_research_slots = 2
 
 set_stability = 0.30
@@ -21,42 +19,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 75
-		}
-		collectivist = {
-			popularity = 10
-		}
-		libertarian_socialist = {
-			popularity = 10
-		}
 		social_democrat = {
 			popularity = 5
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 0
 		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
+			popularity = 50
 		}
 	}
 	
-	ruling_party = vanguardist
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

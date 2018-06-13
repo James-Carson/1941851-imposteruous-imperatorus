@@ -1,12 +1,8 @@
 ﻿capital = 671 #Hanoi
 
-oob = "VIN_1936"
-
 set_research_slots = 3
 set_stability = 0.88
 set_war_support = 0.90
-
-set_cosmetic_tag = VIN_FRA
 
 # Starting tech
 # clone of France
@@ -44,15 +40,9 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 add_ideas = {
-	VIN_rural_nation
-	VIN_socialist_revolutionaries
+#	VIN_rural_nation
+#	VIN_socialist_revolutionaries
 	GEN_Hugo_Bernard_hog_sli
 	GEN_Felix_Menard_for_sli
 	GEN_Francis_Morel_eco_sli
@@ -62,25 +52,13 @@ add_ideas = {
 set_politics = {
 
 parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 4
-		}
-		libertarian_socialist = {
-			popularity = 22
-		}
 		social_democrat = {
 			popularity = 5
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 43
 		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 17
 		}
 		authoritarian_democrat = {
@@ -89,15 +67,9 @@ parties = {
 		paternal_autocrat = {
 			popularity = 2
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -121,7 +93,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Jules_Brevie.tga"
 	expire = "1953.3.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 	
 	}

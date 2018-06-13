@@ -27,25 +27,10 @@ set_war_support = 0.85
 set_politics = {
 
     parties = {
-        vanguardist = {
-            popularity = 0
-        }
-        collectivist = {
-            popularity = 0
-        }
-        libertarian_socialist = {
-            popularity = 5
-        }
         social_democrat = {
             popularity = 20
         }
-        social_liberal = {
-            popularity = 0
-        }
-        market_liberal = {
-            popularity = 0
-        }
-        social_conservative = {
+       	conservative = {
             popularity = 50
         }
         authoritarian_democrat = {
@@ -54,15 +39,9 @@ set_politics = {
         paternal_autocrat = {
             popularity = 0
         }
-        national_populist = {
-            popularity = 25
-        }
-        valkist = {
-            popularity = 0
-        }
     }
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
@@ -96,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_PIXLEY_SEME_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

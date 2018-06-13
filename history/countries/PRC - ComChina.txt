@@ -1,7 +1,5 @@
 ﻿capital = 592
 
-oob = "PRC_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -14,42 +12,18 @@ set_war_support = 0.50
 set_politics = {
 
    parties = {
-		vanguardist = {
-			popularity = 39
-		}
-		collectivist = {
-			popularity = 38
-		}
-		libertarian_socialist = {
-			popularity = 21
-		}
 		social_democrat = {
-			popularity = 0
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
+			popularity = 100
 		}
 	}
 	
-	ruling_party = collectivist
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -66,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_LI_DAZHAO_DESC"
 	picture = "portrait_PRC_Li_Dazhao.tga"
 	expire = "1965.1.1"
-	ideology = collectivist_subtype
+	ideology = paternal_autocrat_subtype
 
 }
 

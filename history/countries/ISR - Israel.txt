@@ -11,13 +11,6 @@ set_research_slots = 3
 set_convoys = 30
 set_stability = 0.50
 set_war_support = 0.50
-set_cosmetic_tag = ISR_UK
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
 
 add_ideas = {
 	GEN_Francesco_Esposito_hog_mli
@@ -29,25 +22,13 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 2
-		}
-		collectivist = {
-			popularity = 4
-		}
-		libertarian_socialist = {
-			popularity = 10
-		}
 		social_democrat = {
 			popularity = 21
 		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 23
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 18
 		}
 		authoritarian_democrat = {
@@ -56,14 +37,8 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 5
 		}
-		national_populist = {
-			popularity = 3
-		}
-		valkist = {
-			popularity = 2
-		}
 	}
-	ruling_party = market_liberal
+	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -83,7 +58,7 @@ create_country_leader = {
 	name = "Chaim Weizmann"
 	desc = ""
 	picture = "Portrait_ISR_Chaim_Weizmann.dds"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

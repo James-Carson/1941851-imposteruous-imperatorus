@@ -1,7 +1,5 @@
 ﻿capital = 6
 
-oob = "BEL_1936"
-
 set_research_slots = 3
 
 
@@ -27,25 +25,13 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 4
-		}
 		social_democrat = {
 			popularity = 21
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 28
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 36
 		}
 		authoritarian_democrat = {
@@ -54,15 +40,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 3
 		}
-		national_populist = {
-			popularity = 2
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -79,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_ALBERT_I_DESC"
 	picture = "Portrait_Belgium_Albert_I.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

@@ -1,14 +1,9 @@
 ﻿capital = 141	
 
-oob = "SWE_1936"
-
 set_research_slots = 3
 
 add_ideas = {
 	low_popularity
-	
-	SWE_unbroken_neutrality_idea
-	SWE_political_wounds_idea
 	
 	SWE_Arvid_Lindman_hog_sco
 	SWE_Ernst_Trygger_for_sco
@@ -42,25 +37,13 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 2
-		}
-		collectivist = {
-			popularity = 8
-		}
-		libertarian_socialist = {
-			popularity = 4
-		}
 		social_democrat = {
 			popularity = 24
 		}
-		social_liberal = {
-			popularity = 2
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 8
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 24
 		}
 		authoritarian_democrat = {
@@ -69,22 +52,14 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 10
 		}
-		national_populist = {
-			popularity = 6
-		}
-		valkist = {
-			popularity = 2
-		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 
 }
-
-give_guarantee = FIN
 
 set_convoys = 50
 set_stability = 0.62
@@ -151,7 +126,7 @@ create_country_leader = {
 	desc = "POLITICS_GUSTAF_V_DESC"
 	picture = "Portrait_King_Gustav.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -162,7 +137,7 @@ create_country_leader = {
 	desc = "POLITICS_GUSTAF_V_DESC"
 	picture = "Portrait_King_Gustav.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

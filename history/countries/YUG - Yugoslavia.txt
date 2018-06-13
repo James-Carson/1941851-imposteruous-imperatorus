@@ -1,7 +1,5 @@
 ﻿capital = 104
 
-oob = "INF"
-
 set_research_slots = 3
 
 
@@ -26,18 +24,6 @@ set_convoys = 0
 set_politics = {
 
 	parties = {
-		market_liberal = { 
-			popularity = 15
-		}
-
-		valkist = {
-			popularity = 10
-		}
-		
-		collectivist = {
-			popularity = 15
-		}
-
 		paternal_autocrat = {
 		    popularity = 60
 		}

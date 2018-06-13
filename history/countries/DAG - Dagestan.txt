@@ -1,7 +1,5 @@
 ﻿capital = 232 #Dagestan
 
-oob = "SSR"
-
 set_research_slots = 3
 set_stability = 0.50
 set_war_support = 0.50
@@ -39,16 +37,7 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_SOV
-set_country_flag = sphere_2_by_SOV
-set_country_flag = sphere_3_by_SOV
-add_ideas = sphered_idea_3
-
 add_ideas = {
-	SOV_Bread
-	SOV_Peace
-	SOV_Labour
 	GEN_Mathias_Hansen_hog_lis
 	GEN_Edgar_Hovda_for_lis
 	GEN_Karl_Mork_eco_lis
@@ -58,25 +47,13 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 15
-		}
-		collectivist = {
-			popularity = 15
-		}
-		libertarian_socialist = {
-			popularity = 60
-		}
 		social_democrat = {
 			popularity = 10
 		}
-		social_liberal = {
-			popularity = 0
+		liberal = {
+			popularity = 60
 		}
-		market_liberal = {
-			popularity = 0
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
@@ -85,15 +62,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -104,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "portrait_DAG_Jelal_Kormaxov.tga"
 	expire = "1953.3.1"
-	ideology = libertarian_socialist_subtype
+	ideology = liberal_subtype
 	traits = {
 		
 	}

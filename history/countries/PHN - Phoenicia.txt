@@ -1,16 +1,7 @@
 ﻿capital = 553
 
-oob = "PHN_1936"
-set_cosmetic_tag = PHN_FRA
-
 set_stability = 0.50
 set_war_support = 0.50
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
 
 add_ideas = {
 	GEN_James_Smith_hog_sco
@@ -57,25 +48,10 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 1
-		}
-		collectivist = {
-			popularity = 2
-		}
-		libertarian_socialist = {
-			popularity = 1
-		}
 		social_democrat = {
 			popularity = 30
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 45
 		}
 		authoritarian_democrat = {
@@ -84,16 +60,10 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
-		national_populist = {
-			popularity = 1
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 
 
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -104,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_FRENCH_GUY_DESC"
 	picture = "portrait_PHN_Emile_Edde.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

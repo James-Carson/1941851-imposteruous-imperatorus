@@ -13,25 +13,15 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		market_liberal = { 
+		liberal = { 
 			popularity = 50
 		}
-
-		national_populist = {
-			popularity = 10
-		}
-		
-		collectivist = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
 		authoritarian_democrat = { 
 			popularity = 30
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,7 +31,7 @@ create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

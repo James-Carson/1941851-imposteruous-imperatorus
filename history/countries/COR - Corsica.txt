@@ -1,7 +1,5 @@
 ﻿capital = 1
 
-oob = "COR"
-
 set_research_slots = 3
 
 # Starting tech
@@ -42,25 +40,13 @@ set_war_support = 0.30
 set_politics = {
 
     parties = {
-        vanguardist = {
-            popularity = 14
-        }
-        collectivist = {
-            popularity = 0
-        }
-        libertarian_socialist = {
-            popularity = 2
-        }
         social_democrat = {
             popularity = 23
         }
-        social_liberal = {
+       liberal = {
             popularity = 31
         }
-        market_liberal = {
-            popularity = 5
-        }
-        social_conservative = {
+        conservative = {
             popularity = 15
         }
         authoritarian_democrat = {
@@ -69,15 +55,10 @@ set_politics = {
         paternal_autocrat = {
             popularity = 2
         }
-        national_populist = {
-            popularity = 0
-        }
-        valkist = {
-            popularity = 4
-        }
+
     }
 	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -92,7 +73,7 @@ create_country_leader = {
 	desc = "CESAR_CAMPINCHI_DESC"
 	picture = "Portrait_Corsica_Cesar_Campinchi.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {		
 	}
 }
@@ -102,7 +83,7 @@ create_country_leader = {
 	desc = "PETRU_GIOVACCHINI_DESC"
 	picture = "Portrait_Corsica_Petru_Giovacchini.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {		
 	}
 }

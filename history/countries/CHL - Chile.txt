@@ -1,7 +1,5 @@
 ﻿capital = 279
 
-oob = "CHL_1936"
-
 set_research_slots = 3
 set_stability = 0.60
 set_war_support = 0.60
@@ -42,23 +40,11 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 1
-		}
-		collectivist = {
-			popularity = 5
-		}
-		libertarian_socialist = {
-			popularity = 6
-		}
 		social_democrat = {
 			popularity = 13
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 23
-		}
-		market_liberal = {
-			popularity = 2
 		}
 		social_conservative = {
 			popularity = 3
@@ -69,15 +55,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 16
 		}
-		national_populist = {
-			popularity = 1
-		}
-		valkist = {
-			popularity = 24
-		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1935.10.30"
 	election_frequency = 60
 	elections_allowed = no
@@ -88,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "JEMontero.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}

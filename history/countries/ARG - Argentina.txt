@@ -1,6 +1,5 @@
 ﻿capital = 278
 
-oob = "ARG_1936"
 set_research_slots = 3
 add_ideas = {
 	civilian_economy
@@ -41,34 +40,14 @@ set_politics = {
 			popularity = 11
 		}
 
-		social_liberal = { 
-			popularity = 14
-		}
-
-		libertarian_socialist = { 
-			popularity = 4
-		}
-
-		vanguardist = { 
-			popularity = 1
-		}
-
-		market_liberal = { 
+		liberal = { 
 			popularity = 16
 		}
 
-		social_conservative = { 
+		conservative = { 
 			popularity = 12
 		}
-
-		national_populist = {
-			popularity = 17
-		}
-
-		valkist = {
-			popularity = 1
-		}
-		
+	
 		paternal_autocrat = {
 			popularity = 2
 		}
@@ -82,7 +61,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -150,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_VICENTE_GALLO_DESC"
 	picture = "VicenteGallo.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -161,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_SAAVEDRA_DESC"
 	picture = "CarlosLamas.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

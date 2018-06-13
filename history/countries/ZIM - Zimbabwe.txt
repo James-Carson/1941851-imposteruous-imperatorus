@@ -1,7 +1,4 @@
 ﻿capital = 545
-
-oob = "ZIM_1936"
-
 set_stability = 0.35
 set_war_support = 0.45
 
@@ -15,19 +12,6 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		social_conservative = {
-			popularity = 0
-		}
-
-		national_populist = {
-			popularity = 0
-		}
-		
-		collectivist = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
 		paternal_autocrat = {
 			popularity = 100
 		}

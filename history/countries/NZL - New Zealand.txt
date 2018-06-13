@@ -1,7 +1,5 @@
 ﻿capital = 284
 
-oob = "NZL_1936"
-
 # Starting tech
 
 set_technology = {
@@ -21,12 +19,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
 add_ideas = {
 	GEN_Louis_Martin_hog_sde
 	GEN_Charles_Granet_for_sde
@@ -37,47 +29,22 @@ add_ideas = {
 set_stability = 0.50
 set_war_support = 0.50
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	set_cosmetic_tag = NZL_ENG
-	else = {
-	set_cosmetic_tag = NZL_ENG
-    }
-}
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 2
-		}
 		social_democrat = {
 			popularity = 54
 		}
-		social_liberal = {
-			popularity = 2
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 34
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
 			popularity = 2
 		}
 		paternal_autocrat = {
-			popularity = 2
-		}
-		national_populist = {
-			popularity = 2
-		}
-		valkist = {
 			popularity = 2
 		}
 	}
@@ -105,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_MONCKTON_ARUNDELL_DESC"
 	picture = "Lord_Monckton_Arundell.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

@@ -1,7 +1,5 @@
 ﻿capital = 539
 
-oob = "NFQ"
-
 set_research_slots = 3
 
 # Starting tech
@@ -36,37 +34,16 @@ add_ideas = {
 	GEN_Adam_Duret_eco_sde
 	GEN_Robin_Trudeau_sec_sde
 }
-
-set_cosmetic_tag = NFQ_FRA
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_FRA
-set_country_flag = sphere_2_by_FRA
-set_country_flag = sphere_3_by_FRA
-add_ideas = sphered_idea_4
-
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 3
-		}
-		libertarian_socialist = {
-			popularity = 4
-		}
 		social_democrat = {
 			popularity = 41
 		}
-		social_liberal = {
+		liberal = {
 			popularity = 25
 		}
-		market_liberal = {
-			popularity = 9
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 15
 		}
 		authoritarian_democrat = {
@@ -74,12 +51,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 2
-		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	

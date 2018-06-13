@@ -17,25 +17,13 @@ set_war_support = 0.80
 set_politics = {
 
     parties = {
-        vanguardist = {
-            popularity = 0
-        }
-        collectivist = {
-            popularity = 0
-        }
-        libertarian_socialist = {
-            popularity = 0
-        }
         social_democrat = {
             popularity = 0
         }
-        social_liberal = {
-            popularity = 0
-        }
-        market_liberal = {
+        liberal = {
             popularity = 13
         }
-        social_conservative = {
+        conservative = {
             popularity = 22
         }
         authoritarian_democrat = {
@@ -43,12 +31,6 @@ set_politics = {
         }
         paternal_autocrat = {
             popularity = 60
-        }
-        national_populist = {
-            popularity = 5
-        }
-        valkist = {
-            popularity = 0
         }
     }
 	
@@ -62,7 +44,7 @@ create_country_leader = {
 	name = "Bashir es Sadawi"
 	desc = "BASHIR_ES_SADEI_DESC"
 	picture = "Portrait_Arabia_Generic_democratic1.dds"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 	}
 }

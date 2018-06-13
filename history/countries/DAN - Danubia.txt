@@ -1,4 +1,4 @@
-﻿capital = 803
+﻿capital = 43
 
 set_research_slots = 4
 set_stability = 0.61
@@ -31,28 +31,16 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 8
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		council_communist = {
 		    popularity = 50
 		}
 		social_democrat = {
 			popularity = 0
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 6
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 20
 		}
 		authoritarian_democrat = {
@@ -60,12 +48,6 @@ set_politics = {
 		}
 		paternal_autocrat = {
 			popularity = 5
-		}
-		national_populist = {
-			popularity = 12
-		}
-		valkist = {
-			popularity = 0
 		}
 	}
 	

@@ -1,7 +1,5 @@
 ﻿capital = 122
 
-oob = "INF"
-
 set_research_slots = 3
 
 set_stability = 0.75
@@ -54,25 +52,10 @@ set_convoys = 250
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 2
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 3
-		}
 		social_democrat = {
 			popularity = 20
 		}
-		social_liberal = {
-			popularity = 3
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
+		conservative = {
 			popularity = 60
 		}
 		authoritarian_democrat = {
@@ -81,15 +64,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 2
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no

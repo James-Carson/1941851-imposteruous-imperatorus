@@ -104,19 +104,17 @@ ideologies = {
 
 	}
 	
-    #Rename market_liberal to just liberal later
-
-	market_liberal = {
+	liberal = {
 		types = {
-		market_liberal_subtype = {}
+		liberal_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_MARKET_LIBERAL_1"
-			"FACTION_NAME_MARKET_LIBERAL_2"
-			"FACTION_NAME_MARKET_LIBERAL_3"
-			"FACTION_NAME_MARKET_LIBERAL_4"
-			"FACTION_NAME_MARKET_LIBERAL_5"
-			"FACTION_NAME_MARKET_LIBERAL_6"
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
 		}
 		color = { 255 216 0 }
 		rules = {
@@ -134,17 +132,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	social_conservative = {
+	conservative = {
 		types = {
-		social_conservative_subtype = {}
+		conservative_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
+			"FACTION_NAME_CONSERVATIVE_1"
+			"FACTION_NAME_CONSERVATIVE_2"
+			"FACTION_NAME_CONSERVATIVE_3"
+			"FACTION_NAME_CONSERVATIVE_4"
+			"FACTION_NAME_CONSERVATIVE_5"
+			"FACTION_NAME_CONSERVATIVE_6"
 		}
 		color = { 0 60 180 } #0 0 255 is the original one
 		rules = {
@@ -225,181 +223,6 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		color = { 255 170 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			conscription = 0.005
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
-
-### Remove all these ideologies later
-
-	vanguardist = {
-		types = {
-		vanguardist_subtype = {}
-		internationalist_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_VANGUARDIST_1"
-			"FACTION_NAME_VANGUARDIST_2"
-			"FACTION_NAME_VANGUARDIST_3"
-			"FACTION_NAME_VANGUARDIST_4"
-			"FACTION_NAME_VANGUARDIST_5"
-			"FACTION_NAME_VANGUARDIST_6"
-		}
-		color = { 155 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			production_speed_buildings_factor = 0.05
-		}
-		ai_neutral = yes			
-		can_be_boosted = no
-	}
-	
-	collectivist = {
-		types = {
-			collectivist_subtype = {}
-			}
-		dynamic_faction_names = {
-			"FACTION_NAME_collectivist_1"
-			"FACTION_NAME_collectivist_2"
-			"FACTION_NAME_collectivist_3"
-			"FACTION_NAME_collectivist_4"
-			"FACTION_NAME_collectivist_5"
-			"FACTION_NAME_collectivist_6"
-		}
-		color = { 225 0 0 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-			production_speed_buildings_factor = 0.05
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-
-	}
-
-	social_liberal = {
-		types = {
-		social_liberal_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERAL_1"
-			"FACTION_NAME_SOCIAL_LIBERAL_2"
-			"FACTION_NAME_SOCIAL_LIBERAL_3"
-			"FACTION_NAME_SOCIAL_LIBERAL_4"
-			"FACTION_NAME_SOCIAL_LIBERAL_5"
-			"FACTION_NAME_SOCIAL_LIBERAL_6"
-		}
-		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
-			industrial_capacity_factory = 0.05
-		}
-		ai_neutral = yes		
-		can_be_boosted = no
-	}
-
-	libertarian_socialist = {
-		types = {
-			libertarian_socialist_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
-		}
-		color = { 233 58 58 } #old one was 255 65 65
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
-			ai_get_ally_desire_factor = -500
-			production_speed_buildings_factor = 0.05
-		}
-		ai_neutral = yes		
-		can_be_boosted = no
-
-	}
-
-	valkist = {
-		types = {
-		valkist_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_VALKIST_1"
-			"FACTION_NAME_VALKIST_2"
-			"FACTION_NAME_VALKIST_3"
-			"FACTION_NAME_VALKIST_4"
-			"FACTION_NAME_VALKIST_5"
-			"FACTION_NAME_VALKIST_6"
-		}
-		color = { 18 53 36 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			conscription = 0.005
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
-
-	national_populist = {
-		types = {
-		national_populist_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_POPULIST_1"
-			"FACTION_NAME_NATIONAL_POPULIST_2"
-			"FACTION_NAME_NATIONAL_POPULIST_3"
-			"FACTION_NAME_NATIONAL_POPULIST_4"
-			"FACTION_NAME_NATIONAL_POPULIST_5"
-			"FACTION_NAME_NATIONAL_POPULIST_6"
-		}
-		color = { 112 53 0 } #142 57 0 is original
 		rules = {
 			can_force_government = no
 			can_puppet = no

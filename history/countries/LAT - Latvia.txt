@@ -26,13 +26,10 @@ set_politics = {
 		social_democrat = {
 			popularity = 34
 		}
-		social_liberal = {
-			popularity = 8
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 22
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 16
 		}
 		authoritarian_democrat = {
@@ -109,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_LAT_SAEIMA_DESC"
 	picture = "Portriat_Saeima.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -120,7 +117,7 @@ create_country_leader = {
 	desc = "POLITICS_LAT_SAEIMA_DESC"
 	picture = "Portriat_Saeima.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

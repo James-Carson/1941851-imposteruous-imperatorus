@@ -1,16 +1,8 @@
 ﻿capital = 757
 
-oob = "INF"
-
 add_ideas = {
 	limited_conscription
 }
-
-set_country_flag = sphered
-set_country_flag = sphere_1_by_POL
-set_country_flag = sphere_2_by_POL
-set_country_flag = sphere_3_by_POL
-add_ideas = sphered_idea_8
 
 set_technology = {
 	infantry_weapons = 1
@@ -27,25 +19,13 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 1
-		}
-		collectivist = {
-			popularity = 2
-		}
-		libertarian_socialist = {
-			popularity = 2
-		}
 		social_democrat = {
 			popularity = 14
 		}
-		social_liberal = {
-			popularity = 7
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 19
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 44
 		}
 		authoritarian_democrat = {
@@ -54,15 +34,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 2
 		}
-		national_populist = {
-			popularity = 2
-		}
-		valkist = {
-			popularity = 1
-		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1931.10.3"
 	election_frequency = 108
 	elections_allowed = no

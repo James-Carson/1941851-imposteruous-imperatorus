@@ -1,7 +1,5 @@
 ﻿capital = 857 #Grozny
 
-oob = "SSR"
-
 set_research_slots = 3
 set_stability = 0.50
 set_war_support = 0.50
@@ -39,32 +37,11 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_SOV
-set_country_flag = sphere_2_by_SOV
-set_country_flag = sphere_3_by_SOV
-add_ideas = sphered_idea_3
-
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 25
-		}
-		collectivist = {
-			popularity = 35
-		}
-		libertarian_socialist = {
-			popularity = 28
-		}
 		social_democrat = {
-			popularity = 12
-		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
-			popularity = 0
+			popularity = 30
 		}
 		social_conservative = {
 			popularity = 0
@@ -75,15 +52,9 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
-		national_populist = {
-			popularity = 0
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = libertarian_socialist
+	ruling_party = social_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -94,7 +65,7 @@ create_country_leader = {
 	desc = ""
 	picture = "portrait_CHE_Tasztemir_Eldarchanow.tga"
 	expire = "1953.3.1"
-	ideology = libertarian_socialist_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		
 	}

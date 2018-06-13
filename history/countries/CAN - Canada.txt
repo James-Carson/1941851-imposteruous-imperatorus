@@ -1,12 +1,6 @@
 ﻿capital = 276
 
-oob = "CAN"
-
 set_research_slots = 3
-set_country_flag = monroe_doctrine
-set_country_flag = NO_GENERIC_STABILITY_DECISIONS
-set_country_flag = NO_GENERIC_RESOURCE_DECISIONS
-set_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
 
 # Starting tech
 set_technology = {
@@ -36,22 +30,11 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 }
 
-set_country_flag = sphered
-set_country_flag = sphere_1_by_ENG
-set_country_flag = sphere_2_by_ENG
-set_country_flag = sphere_3_by_ENG
-add_ideas = sphered_idea_1
-
-add_political_power = -52
 set_convoys = 100
 set_stability = 0.6
 set_war_support = 0.40
 
 add_ideas = {
-	CAN_red_tories
-	CAN_canadian_corps
-	CAN_anglo_french_tension
-	CAN_east_west_divide
 	high_popularity
 	CAN_rb_bennett_hog
 	CAN_lester_b_pearson_for
@@ -59,38 +42,16 @@ add_ideas = {
 	CAN_hugh_guthrie_sec
 	}
 
-if = { 
-	limit = { NOT = { has_dlc = "Together for Victory" } }
-	set_cosmetic_tag = CAN_ALY
-}
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	set_cosmetic_tag = CAN_UK
-	#add_to_tech_sharing_group = commonwealth_research
-}
-
 set_politics = {
 
 	parties = {
-		vanguardist = {
-			popularity = 0
-		}
-		collectivist = {
-			popularity = 0
-		}
-		libertarian_socialist = {
-			popularity = 0
-		}
 		social_democrat = {
 			popularity = 16
 		}
-		social_liberal = {
-			popularity = 0
-		}
-		market_liberal = {
+		liberal = {
 			popularity = 6
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 61
 		}
 		authoritarian_democrat = {
@@ -99,16 +60,10 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
-		national_populist = {
-			popularity = 16
-		}
-		valkist = {
-			popularity = 0
-		}
 	}
 
 
-	ruling_party = social_conservative
+	ruling_party = conservative
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -163,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_BUCHAN_DESC"
 	picture = "Portrait_John_Bucan.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -174,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_BUCHAN_DESC"
 	picture = "Portrait_John_Bucan.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = liberal_subtype
 	traits = {
 		#
 	}
@@ -185,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_BUCHAN_DESC"
 	picture = "Portrait_John_Bucan.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}
