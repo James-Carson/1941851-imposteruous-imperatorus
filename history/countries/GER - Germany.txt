@@ -66,6 +66,14 @@ puppet = BEL
 
 puppet = DML
 
+puppet = ANH
+
+puppet = LIT
+
+puppet = EST
+
+puppet = POL
+
 
 set_research_slots = 4
 set_convoys = 200
