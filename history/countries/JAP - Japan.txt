@@ -66,7 +66,7 @@ set_politics = {
 			popularity = 7
 		}
 		liberal = {
-			popularity = 63
+			popularity = 0
 		}
 		conservative = {
 			popularity = 13
@@ -77,26 +77,29 @@ set_politics = {
 		paternal_autocrat = {
 			popularity = 0
 		}
+		antiquarian_nationalist = {
+			popularity = 63
+		}
 	}
 	
-	ruling_party = liberal
+	ruling_party = antiquarian_nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Hirohito"
+	name = "Emperor Tenshō"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_JAP_Hirohito.tga"
 	expire = "1989.1.1"
-	ideology = liberal_subtype
+	ideology = antiquarian_nationalist_subtype
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Hirohito"
+	name = "Emperor Tenshō"
 	desc = "POLITICS_HIROHITO_DESC"
 	picture = "Portrait_JAP_Hirohito.tga"
 	expire = "1989.1.1"
