@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = NFL
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
@@ -18,7 +18,6 @@ state={
 			}
 		}
 		add_core_of = CAN
-		add_core_of = NFL
 		victory_points = {
 			12505 5 
 		}
