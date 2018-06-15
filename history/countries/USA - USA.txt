@@ -91,6 +91,8 @@ add_ideas = {
 #	autonomous_state =  autonomy_puppet
 #}
 
+puppet = WIF
+
 create_country_leader = {
 	name = "Quentin Roosevelt"
 	desc = "POLITICS_FRANKLIN_ROOSEVELT_DESC"
