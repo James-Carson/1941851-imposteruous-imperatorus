@@ -1,5 +1,7 @@
 ﻿capital = 278
 
+puppet = URG
+
 set_research_slots = 3
 add_ideas = {
 	civilian_economy
