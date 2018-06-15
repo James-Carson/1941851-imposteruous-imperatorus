@@ -63,12 +63,12 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "The United States Senate"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
+	name = "Council of Patriots"
+	desc = "POLITICS_COUNCIL_OF_PATRIOTS_DESC"
+	picture = "Portrait_USA_Council_of_Patriots.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		#
+
 	}
 }
