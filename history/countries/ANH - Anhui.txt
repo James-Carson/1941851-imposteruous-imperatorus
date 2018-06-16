@@ -1,4 +1,4 @@
-﻿capital = 597 # Shangdong
+﻿capital = 10000 # Qingdao
 
 # Starting tech
 set_technology = {
