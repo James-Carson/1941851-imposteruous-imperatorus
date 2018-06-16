@@ -5,7 +5,7 @@ state={
 	history={
 		owner = ANH
 		victory_points = {
-			10000 5 
+			10000 10 
 		}
 		buildings = {
 			infrastructure = 6
