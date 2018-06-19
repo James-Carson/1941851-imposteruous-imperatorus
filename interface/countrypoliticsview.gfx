@@ -233,8 +233,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_slot_intel_minister"
-		textureFile = "gfx/interface/idea_slot_intel_minister.dds"
+		name = "GFX_idea_slot_head_of_intel"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds" #Temporary
 	}
 	
 
