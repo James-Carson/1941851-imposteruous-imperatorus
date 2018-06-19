@@ -15,9 +15,9 @@ state={
 			1513 = {
 				naval_base = 1
 			}
+			}
 		add_core_of = WIF
 		}
-	}
 	
 	provinces={
 		1513 10440 

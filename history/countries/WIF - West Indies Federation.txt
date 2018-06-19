@@ -1,4 +1,4 @@
-﻿capital = 2077
+﻿capital = 691 #Temporary.
 
 set_research_slots = 3
 set_stability = 0.34
