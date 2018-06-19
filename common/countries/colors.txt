@@ -897,6 +897,6 @@ MDG = {
 }
 
 WIF = {
-	color = rgb { 66 66 100 } #Temporary, originally 66 134 244 but that was too similar to USA.
-	color_ui = rgb { 66 66 100 }
+	color = rgb { 66 66 150 } #Temporary, originally 66 134 244 but that was too similar to USA.
+	color_ui = rgb { 66 66 150 }
 }
