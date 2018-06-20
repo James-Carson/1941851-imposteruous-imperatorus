@@ -28,6 +28,9 @@ add_ideas = {
 	GEN_Oscar_Morgan_sec_sco
 }
 
+create_faction = "Third International"
+add_to_faction = GEO
+
 set_politics = {
 
 	parties = {

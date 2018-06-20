@@ -40,24 +40,21 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 31
+		utopianist = {
+			popularity = 71
 		}
-		liberal = {
+		council_communist = {
 			popularity = 11
 		}
-		conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 2
+		socialist = {
+			popularity = 14
 		}
 		paternal_autocrat = {
-			popularity = 1
+			popularity = 4
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = utopianist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -174,11 +171,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sergo Ordzhonikidze"
+	name = "Josef Djugashvili"
 	desc = ""
-	picture = "Portrait_GEO_Sergo_Ordzhonikidze.dds"
+	picture = "Portrait_GEO_Ioseb_Jughashvili_old.dds"
 	expire = "1953.3.1"
-	ideology = vanguardist_subtype
+	ideology = utopianist_subtype
 	traits = {
 		
 	}
