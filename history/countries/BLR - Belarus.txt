@@ -57,25 +57,25 @@ set_politics = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 50
 		}
 		paternal_autocrat = {
-			popularity = 50
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-    name = "Vasil Zacharka"
+    name = "Lucjan Żeligowski"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
-    ideology = paternal_autocrat_subtype
+    ideology = authoritarian_democrat_subtype
     traits = {
         #
     }
