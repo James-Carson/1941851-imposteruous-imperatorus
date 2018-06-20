@@ -1,110 +1,49 @@
-﻿#KAISERREICH for HEARTS of IRON 4
-Alpha 0.6: 'Garibaldi's Nightmare'
+﻿#Whispers of Antiquity for HEARTS of IRON 4
+Alpha 0.0.0: 'Air's Nightmare'
 
-#The Kaiserreich Team
-~mw~
-Akamber
-Anbory
-Autovonbismarck
-Beelzebub
-Blackfalcon501
-DDago
-Delincious
-Denizz
-Dr. Njitram
-Flamefang
-Herkles
-Jeankedezeehond
-Kaiserbot
-Liegnitz
-Medizine
-Miklos Horthy
-Nijato
-OperationsManagementDecisions
-Packard
-PPsyrius
-Pietrus
-Rinbro
-Roparex
-Rylock
-Sbadkins4
-Sea Lion
-TheBlackWinds
-Thomahawk2k
-TornadoWatch
-VirtualHummingbird
-Wladyslaw Sikorski
-WordZero
-Wyandotte
-Zankoas
+#The Whispers of Antiquity Team
+Toby
+Silverscorpion
+IllegalZero
+AirHunter
+CrusaderKing
+Swoozle
+Essexia
+Roniius
+Bouncyknight
+The Duke Of Carinthia
+Skorzeny
+Captain157
+Fede
 
+Sample Text
+Chernobyl
+Himmler's fuckbuddy
+Sumeragi
+SomeRandomEU4Fan
+Tech_Penguin
+Bolshevik Boy
+Frenzled [Vaultlord}
+Hellbat
+Rosie
+SilverRed
+Smarty99
+SMBlade
+Spuddatomic
 #Our Fallen Comrades
-Ace of Aces
-Ahearne
-AllyJammy
-Augenis
-BattleSarge
-Chef Exellence
-Cinzya
-CrazyZombie
-Dedlift
-Devastator
-DoctorPainkiller
-Dskod1
-Dylanstrategie
-Esmaerla
-Fatherlorris
-Firefly
-Gibzit
-Harmazon
-Hyvinvointinionvaakalaudalla
-Indyclone77
-Jak
-Kallar
-Kornilov
-Kraken
-MaelTec
-Mark
-MattTheCzar
-Miinda
-Mikus
-Miyokari
-MonarchistKaiser
-Phil
-Pinback
-Raptor Jesus
-Rebi-chan
-Satellite Yung
-Selim
-Skullcrusher
-Tatiana
-TheBeezKneez
-WentBerzerk
-Zarasophos
-Zombieman2344
+HeiaSellasie
+TheRandomHat
+Figusirow
 
+AirHunter's Sanity
 #Thanks to the following modders
 Who have so generously donated some of their work
 
-A Carton of Juice
-Adszok
-AKAGIxxKAGA
-Halcyon Hush
-Schüewoo
-SilentAssassin
-Skyllio
-Sleight of Hand
-Tekoa
-Ulmont
-Yakez
-魔人ぐだ子
-电灯弗里曼
-
+#Thanks to the mod teams who leased us assets
+Kaiserreich
+Fuherreich
 #BASED ON A IDEA BY
-Sarmatia1871
-
-
-...and to you, the player!
+The Fuhrerreich Mod Team
 
 
 
