@@ -171,14 +171,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Josef Djugashvili"
-	desc = ""
-	picture = "Portrait_GEO_Ioseb_Jughashvili_old.dds"
-	expire = "1953.3.1"
-	ideology = utopianist_subtype
-	traits = {
-		
-	}
+    name = "Sergo Ordzhonikidze"
+    desc = ""
+    picture = "Portrait_GEO_Sergo_Ordzhonikidze.dds"
+    expire = "1953.3.1"
+    ideology = utopianist_subtype
+    traits = {
+
+    }
 }
 
 ### FIELD MARSHALS ###
