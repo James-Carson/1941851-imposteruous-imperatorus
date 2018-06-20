@@ -26,21 +26,21 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 0
+		socialist = {
+			popularity = 10
 		}
-		conservative = {
-			popularity = 51
+		utopianist = {
+			popularity = 60
 		}
-		authoritarian_democrat = {
-			popularity = 30
+		council_communist = {
+			popularity = 25
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 5
 		}
 	}
 	
-	ruling_party = conservative
+	ruling_party = utopianist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -53,6 +53,17 @@ create_country_leader = {
 	picture = "Portrait_Sichuan_Deng_Xihou.tga"
 	expire = "1965.1.1"
 	ideology = conservative_subtype  
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zhu De"
+	desc = ""
+	picture = "Portrait_Shanxi_Yan_Xishan.tga"
+	expire = "1965.1.1"
+	ideology = utopianist_subtype
 	traits = {
 		#
 	}

@@ -14,6 +14,7 @@ add_ideas = {
 	ITA_Manlio_Brosio_sec_mli
 }
 
+create_faction = "Patto di Sangue"
 
 # Starting tech
 set_technology = {
@@ -51,23 +52,23 @@ set_politics = {
 
     parties = {
         social_democrat = {
-            popularity = 23
+            popularity = 0
         }
-        liberal = {
-            popularity = 31
+        antiquarian_nationalist = {
+            popularity = 80
         }
         conservative = {
-            popularity = 15
+            popularity = 1
         }
         authoritarian_democrat = {
             popularity = 4
         }
         paternal_autocrat = {
-            popularity = 2
+            popularity = 15
         }
     }
 	
-	ruling_party = liberal
+	ruling_party = antiquarian_nationalist
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -75,7 +76,15 @@ set_politics = {
 }
 
 
-
+create_country_leader = {
+	name = "Marco Brescil"
+	desc = ""
+	picture = "Portrait_Italy_Umberto_II.dds"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "Umberto II"

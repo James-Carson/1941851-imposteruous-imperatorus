@@ -1,4 +1,4 @@
-﻿capital = 728 #Beijing
+﻿capital = 328 #Beijing
 
 set_research_slots = 3
 
