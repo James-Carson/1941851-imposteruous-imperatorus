@@ -1,6 +1,6 @@
 
 music = {
-	song = "caesarreich_theme"
+	song = "maintheme"
 	chance = {
 		modifier = {
 			factor = 0.5

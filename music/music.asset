@@ -2,8 +2,8 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "caesarreich_theme.ogg"
-	volume = 0.55
+	file = "whispers_of_antiquity_theme.ogg"
+	volume = 0.65
 }
 
 # General Peace:
