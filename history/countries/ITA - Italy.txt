@@ -15,6 +15,7 @@ add_ideas = {
 }
 
 create_faction = "Patto di Sangue"
+add_to_faction = JAP
 
 # Starting tech
 set_technology = {
