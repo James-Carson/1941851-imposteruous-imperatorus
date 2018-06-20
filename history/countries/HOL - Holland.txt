@@ -34,6 +34,8 @@ add_ideas = {
 	GEN_Boian_Petrescu_sec_npo
 }
 
+add_puppet = DEI
+
 
 set_politics = {
 

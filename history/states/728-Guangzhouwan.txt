@@ -9,9 +9,10 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = FRA
+		owner = KMT
 		add_core_of = KMT
 		add_core_of = MAN
+		add_claim_by = FRA
 		buildings = {
 			infrastructure = 3
 			11981 = {

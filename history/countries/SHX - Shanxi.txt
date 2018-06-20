@@ -1,4 +1,4 @@
-﻿capital = 615
+﻿capital = 608
 
 set_stability = 0.50
 set_war_support = 0.50
@@ -22,10 +22,22 @@ set_politics = {
 			popularity = 0
 		}		
 		authoritarian_democrat = { 
-			popularity = 100
+			popularity = 5
+		}
+		utopianist = {
+			popularity = 60
+		}
+		council_communist = {
+			popularity = 15
+		}
+		socialist = {
+			popularity = 20
+		}
+		paternal_autocrat = {
+			popularity = 5
 		}
 	}
-	ruling_party = authoritarian_democrat
+	ruling_party = utopianist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,6 +53,18 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Zhu De"
+	desc = "POLITICS_YAN XISHAN_DESC"
+	picture = "Portrait_Shanxi_Yan_Xishan.tga"
+	expire = "1965.1.1"
+	ideology = utopianist_subtype
+	traits = {
+		#
+	}
+}
+
 
 #add_ideas = {
 #	part_of_beiyang_council

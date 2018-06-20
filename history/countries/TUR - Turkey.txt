@@ -36,6 +36,8 @@ set_technology = {
 	gw_artillery = 1
 }
 
+puppet = EGY
+
 set_politics = {
 
 	parties = {

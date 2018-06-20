@@ -3,7 +3,8 @@ state={
 	name="STATE_634"
 
 	history={
-		owner = AST
+		owner = GER
+		add_claim_by = AST
 		buildings = {
 			infrastructure = 2
 			1269 = {

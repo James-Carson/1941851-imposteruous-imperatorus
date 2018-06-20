@@ -93,6 +93,8 @@ add_ideas = {
 
 puppet = WIF
 
+puppet = PHI
+
 create_country_leader = {
 	name = "Quentin Roosevelt"
 	desc = "POLITICS_FRANKLIN_ROOSEVELT_DESC"
