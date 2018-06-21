@@ -3,11 +3,11 @@
 GER_CAESARREICH_DESC:0 " --- "
 
 #### Parties ####
-GER_utopianist_party:0 "UPD"
-GER_utopianist_party_long:0 "Utopie Partei Deutschlands" #also overlook this.
+GER_utopianism_party:0 "UPD"
+GER_utopianism_party_long:0 "Utopie Partei Deutschlands" #also overlook this.
 
-GER_council_communist_party:0 "Spartacist Kommunistiche Partei Deutchslands"
-GER_council_communist_party_long:0 "SKPD"
+GER_council_communist_party:0 "SKPD"
+GER_council_communist_party_long:0 "Spartacist Kommunistiche Partei Deutchslands
 
 GER_socialist_party:0 "SAPD"
 GER_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
@@ -278,6 +278,23 @@ GER_public_bonus:0 "Public Education Funding"
 GER_public_bonus_desc:0 "Education is a right for all Germans. A nation such as our needs a well educated populace to lead it to long term glory. We should increase funding for public education to help achieve this goal."
 
 #### Focuses ####
+GER_the_collapse:0 "Der Börsencrash"
+
+GER_austerity:0 "Austerity"
+GER_cut_military_funding:0 "Cut Military Funding"
+GER_cut_civilian_funding:0 "Close Down Unprofitable Factories"
+GER_draw_funds_from_mitteleuropa:0 "Funding from Mitteleuropa"
+GER_draw_funds_from_internal:0 "Internal Funding"
+
+GER_continue_reforms:0 "Continue Reforms"
+GER_free_markets:0 "Open up the Market"
+GER_tax_reform:0 "Tax Reform"
+GER_banking_act:0 "Banking Act"
+GER_inflation_controls:0 "Controlled Inflation Policies"
+
+GER_draw_public_support:0 ""The Empire has not failed you!""
+GER_the_dust_settles:0 "The Dust settles..."
+
 GER_domestic_cleanup:0 "Domestic Cleanup"
 GER_put_down_liberals:0 "Put down Liberals"
 GER_put_down_socialists:0 "Put down Socialists"
