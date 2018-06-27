@@ -1,0 +1,19 @@
+add_namespace = ger
+
+country_event = {
+	id = ger.3
+	title = ger.3.t
+	desc = ger.3.d
+	#picture =
+
+	is_triggered_only = yes
+
+	option = {
+		name = ger.3.a
+		set_country_flag = GER_chosen_austerity
+	}
+	option = {
+		name = ger.3.b
+		set_country_flag = GER_chosen_reforms
+	}
+}

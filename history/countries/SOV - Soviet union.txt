@@ -73,39 +73,6 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Sergey Kirov"
-	desc = "POLITICS_KIROV_DESC"
-	picture = "Portrait_Soviet_Sergey_Kirov.dds"
-	expire = "1953.3.1"
-	ideology = vanguardist_subtype
-	traits = {
-		popular_figurehead
-	}
-}
-
-create_country_leader = {
-	name = "Sergey Kirov"
-	desc = "POLITICS_KIROV_DESC"
-	picture = "Portrait_Soviet_Sergey_Kirov.dds"
-	expire = "1953.3.1"
-	ideology = collectivist_subtype
-	traits = {
-		popular_figurehead
-	}
-}
-
-create_country_leader = {
-	name = "Sergey Kirov"
-	desc = "POLITICS_KIROV_DESC"
-	picture = "Portrait_Soviet_Sergey_Kirov.dds"
-	expire = "1953.3.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		popular_figurehead
-	}
-}
-
-create_country_leader = {
 	name = "Vladimir Purishkevich"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
@@ -125,79 +92,10 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Boris Savinkov"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = national_populist_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Viktor Chernov"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = social_democrat_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Mikhail Kalinin"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ariadna Tyrkova-Williams"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = social_liberal_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Kerensky"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = market_liberal_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Guchkov"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = social_conservative_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikolay Ustryalov"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = valkist_subtype
-	traits = {
-		
-	}
-}
-add_namespace = {
-	name = "unit_leader_sov"
-	type = unit_leader
-}
+#add_namespace = {
+#	name = "unit_leader_sov"
+#	type = unit_leader
+#}
 
 create_corps_commander = {
 	name = "Georgy Zhukov"

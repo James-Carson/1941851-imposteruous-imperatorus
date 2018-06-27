@@ -49,28 +49,6 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "D. F. Malan"
-	desc = "POLITICS_DF_MALAN_DESC"
-	picture = "GFX_SAF_daniel_malan"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Moses Kotane"
-	desc = "POLITICS_MOSES_KOTANE_DESC"
-	picture = "GFX_SAF_moses_kotane"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Pixley Ka Isaka Seme"
 	desc = "POLITICS_PIXLEY_SEME_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"

@@ -79,16 +79,6 @@ create_country_leader = {
 	desc = "GIOVANNI_GRONCHI_DESC"
 	picture = "Portrait_Tuscany_Giovanni_Gronchi.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {		
-	}
-}
-
-create_country_leader = {
-	name = "Giovanni Gronchi"
-	desc = "GIOVANNI_GRONCHI_DESC"
-	picture = "Portrait_Tuscany_Giovanni_Gronchi.dds"
-	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {		
 	}
@@ -100,36 +90,6 @@ create_country_leader = {
 	picture = "Portrait_Italy_Piero_Calamandrei.dds"
 	expire = "1965.1.1"
 	ideology = liberal_subtype
-	traits = {		
-	}
-}
-
-create_country_leader = {
-	name = "Piero Calamandrei"
-	desc = "PIERO_CALAMANDREI_DESC"
-	picture = "Portrait_Italy_Piero_Calamandrei.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {		
-	}
-}
-
-create_country_leader = {
-	name = "Ezio Bartalini"
-	desc = "EZIO_BARALINI_DESC"
-	picture = "Portrait_Italy_Ezio_Bartalini.dds"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {		
-	}
-}
-
-create_country_leader = {
-	name = "Ezio Bartalini"
-	desc = "EZIO_BARALINI_DESC"
-	picture = "Portrait_Italy_Ezio_Bartalini.dds"
-	expire = "1965.1.1"
-	ideology = collectivist_subtype
 	traits = {		
 	}
 }

@@ -70,15 +70,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "CIA"
-	desc = "POLITICS_DUPLESSIS_DESC"
-	picture = "Portrait_CIA.tga"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {
-		cia
-		hothead
-	}
-}

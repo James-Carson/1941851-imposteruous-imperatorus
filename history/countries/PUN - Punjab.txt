@@ -52,14 +52,3 @@ create_country_leader = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Mirza Basheer-Ud-Din Mahmood Ahmad"
-	desc = "POLITICS_MIRZA_AHMAD_DESC"
-	picture = "mirza_basheer-ud-din_mahmood_ahmad.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		
-	}
-}

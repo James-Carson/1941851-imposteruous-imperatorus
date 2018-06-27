@@ -29,7 +29,7 @@ set_politics = {
 		socialist = {
 			popularity = 10
 		}
-		utopianist = {
+		utopianism = {
 			popularity = 60
 		}
 		council_communist = {
@@ -40,7 +40,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = utopianist
+	ruling_party = utopianism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Shanxi_Yan_Xishan.tga"
 	expire = "1965.1.1"
-	ideology = utopianist_subtype
+	ideology = utopianism_subtype
 	traits = {
 		#
 	}

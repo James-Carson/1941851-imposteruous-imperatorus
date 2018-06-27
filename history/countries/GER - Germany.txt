@@ -37,7 +37,8 @@ set_technology = {
 }
 
 add_ideas = {
-	GER_victors_of_the_guerra_mondiale
+	GER_victor_of_the_guerra_mondiale
+	GER_the_borsencrash
 	GER_liberal_revolts
 	GER_socialist_revolts
 	GER_separatist_revolts
@@ -47,7 +48,7 @@ add_ideas = {
 	limited_exports
 }
 
-set_country_flag = has_ministers
+#set_country_flag = has_ministers
 
 create_faction = "Eintracht von Europa"
 add_to_faction = POL

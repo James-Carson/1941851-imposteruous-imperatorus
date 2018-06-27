@@ -9,7 +9,7 @@ ideas = {
 	country = {
 
 		GER_victor_of_the_guerra_mondiale = {
-			picture = idea_victors_of_the_great_war
+			picture = generic_victors_of_ww1
 			modifier = {
 			 surrender_limit = 0.20
 			}
@@ -21,7 +21,7 @@ ideas = {
 		}
 
 		GER_liberal_revolts = {
-			picture = idea_generic_democratic_drift
+			picture = generic_democratic_drift_bonus
 			modifier = {
 			 stability_factor = -0.15
 			 political_power_gain = -0.25
@@ -30,7 +30,7 @@ ideas = {
 		}
 
 		GER_socialist_revolts = {
-			picture = idea_generic_democratic_drift
+			picture = generic_democratic_drift
 			modifier = {
 			 stability_factor = -0.15
 			 production_speed_buildings_factor = -0.25
@@ -39,7 +39,7 @@ ideas = {
 		}
 
 		GER_separatist_revolts = {
-			picture = idea_generic_democratic_drift
+			picture = generic_democratic_drift
 			modifier = {
 			 stability_factor = -0.25
 			 conscription_factor = -0.25
@@ -47,7 +47,7 @@ ideas = {
 		}
 	
 		GER_cost_of_1919 = {
-			picture = idea_the_war_to_end_all_wars
+			picture = the_war_to_end_all_wars
 			modifier = {
 			 consumer_goods_factor = 0.15
 			 war_support_factor = -0.50
@@ -59,10 +59,24 @@ ideas = {
 		}
 
 		GER_bulwark_of_the_status_quo = {
-			picture = idea_generic_democratic_drift
+			picture = air_support_focus
 			modifier = {
 			send_volunteer_size = 5
 			send_volunteers_tension = -0.90
+			}
+		}
+
+		GER_the_borsencrash = {
+			picture = great_depression
+			modifier = {
+			 consumer_goods_factor = 0.25
+			 research_time_factor = 0.05
+			 industrial_capacity_factory = -0.35
+			 production_factory_max_efficiency_factor = -0.35
+			 line_change_production_efficiency_factor = -0.35
+			 production_speed_buildings_factor = -0.35
+
+
 			}
 		}
 

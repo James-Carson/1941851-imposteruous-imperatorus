@@ -38,30 +38,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antun Saadeh"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Ghazi bin Faisal"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khalid Bakdash"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_communism1.dds"
-	ideology = collectivist_subtype
 	traits = {
 		#
 	}

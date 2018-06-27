@@ -61,9 +61,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Bela Kun"
+	name = "Béla Kun"
 	desc = ""
-	picture = "Portrait_Wilhelm_Miklas.tga"
+	picture = "Portrait_Bela_Kun.tga"
 	expire = "1965.1.1"
 	ideology = council_communist_subtype
 	traits = {

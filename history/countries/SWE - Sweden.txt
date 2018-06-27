@@ -67,55 +67,11 @@ set_war_support = 0.33
 add_manpower = 50000
 
 create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "Portrait_Sven_Linderot.tga"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "Portrait_Sven_Linderot.tga"
-	expire = "1965.1.1"
-	ideology = collectivist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nils Flyg"
-	desc = "POLITICS_NILS_FLYG_DESC"
-	picture = "Portrait_Nils_Flyg.tga"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Gustaf V"
 	desc = "POLITICS_GUSTAF_V_DESC"
 	picture = "Portrait_King_Gustav.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gustaf V"
-	desc = "POLITICS_GUSTAF_V_DESC"
-	picture = "Portrait_King_Gustav.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
@@ -160,28 +116,6 @@ create_country_leader = {
 	picture = "Portrait_King_Gustav.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gustaf V"
-	desc = "POLITICS_GUSTAF_V_DESC"
-	picture = "Portrait_King_Gustav.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sven-Olov Lindholm"
-	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "Portrait_Sven_Olov_Lindholm.tga"
-	expire = "1965.1.1"
-	ideology = valkist_subtype
 	traits = {
 		#
 	}

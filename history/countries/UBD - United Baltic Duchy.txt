@@ -41,79 +41,12 @@ set_politics = {
 	election_frequency = 108
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = collectivist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
-	traits = {
-		#
-	}
-}
-
 create_country_leader = {
 	name = "Regency Council"
 	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
 	picture = "Portrait_Regency_Council.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -136,28 +69,6 @@ create_country_leader = {
 	picture = "Portrait_Regency_Council.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Regency Council"
-	desc = "POLITICS_LAT_REGENCY_COUNCIL_DESC"
-	picture = "Portrait_Regency_Council.dds"
-	expire = "1965.1.1"
-	ideology = valkist_subtype
 	traits = {
 		#
 	}

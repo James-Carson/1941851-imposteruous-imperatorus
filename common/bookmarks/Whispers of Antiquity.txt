@@ -17,9 +17,9 @@ bookmarks = {
 		}
 
 
-		"SOV"={
-			history = "SOV_FUHRERREICH_DESC"
-			ideology = authoritarian_democrat
+		"ENG"={
+			history = "ENG_FUHRERREICH_DESC"
+			ideology = conservative
 			ideas = {
 			}
 			focuses = {
