@@ -27,35 +27,128 @@ add_ideas = {
 set_politics = {
 
 	parties = {
+		antiquarian_nationalist = {
+			popularity = 40
+		}
+		paternal_autocrat = {
+			popularity = 25
+		}
+		authoritarian_democrat = {
+			popularity = 25
+		}
+		socialist = {
+			popularity = 10
+		}
+		utopianism = {
+			popularity = 0
+		}
+		council_communist = {
+			popularity = 0
+		}
 		social_democrat = {
-			popularity = 14
+			popularity = 0
 		}
 		liberal = {
 			popularity = 0
 		}
-		social_conservative = {
+		conservative = {
 			popularity = 0
 		}
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		paternal_autocrat = {
-			popularity = 40
-		}
+		
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = antiquarian_nationalist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Karl Säre"
+	name = "Max Erwin von Scheubner-Richter"
 	desc = "POLITICS_KARL_SARE_DESC"
-	picture = "Portrait_Karl_Sare.tga"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = antiquarian_nationalist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = utopianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = council_communist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = conservative__subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Max Erwin von Scheubner-Richter"
+	desc = "POLITICS_KARL_SARE_DESC"
+	picture = "Portrait_Max_Richter.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
