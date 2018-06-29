@@ -1,4 +1,4 @@
-﻿capital = 525
+﻿capital = 880 #South Korea - Seoul or Busan
 
 # Starting tech
 set_technology = {

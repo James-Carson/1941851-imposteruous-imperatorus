@@ -1,4 +1,4 @@
-﻿capital = 895 # South Gansu
+﻿capital = 892 # Beelze: when they take Nanjing, make an event to move the capital there. Having it start as the capital makes an error - darknight1342
 
 # Starting tech
 set_technology = {
