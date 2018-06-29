@@ -149,12 +149,7 @@ custom_diff_strong_jap:0 "Strengthen Japan"
 custom_diff_strong_tur:0 "Strengthen Ottomans"
 
 ### Factions ###
-imperial_protection_alliance:0 "Imperial Protection Alliance"
-continental_entente:0 "Continental Entente"
-Stahlpakt:0 "Stahlpakt"
-3rd_international:0 "Third International"
-free_bloc:0 "Free Bloc"
-commonwealth:0 "Commonwealth of Nations"
+#imperial_protection_alliance:0 "Imperial Protection Alliance"
 
 ### Interface ###
 minister:1 "Ministers"
@@ -207,38 +202,37 @@ national_populist_promoter:0 "Nationalist Demagogue"
 great_compromiser:0 "Great Compromiser"
 
 ### Ideologies ###
-#Change Market_Liberal to just liberal, or maybe keep it and just call it liberal everywhere else.
 utopianism:0 "Utiopianists"
 council_communist:0 "Council Communists"
-socialist:0 "Socialists"
+socialist:0 "Radical Socialism"
 antiquarian_nationalist:0 "Antiquarian Nationalists"
-
-liberal:0 "Liberals"
+liberal:0 "Liberalism"
 social_democrat:0 "Social Democrats"
-conservative:0 "Conservatives"
+conservative:0 "Social Conservatives"
 authoritarian_democrat:0 "Authoritarian Dem."
 paternal_autocrat:0 "Paternal Autocrats"
+national_populist:0 "National Populists"
 ### Drift ###
 utopianism_drift:0 "Daily Utopianist support"
 council_communist_drift:0 "Daily Council Communist support"
-socialist_drift:0 "Daily Socialist support"
+socialist_drift:0 "Daily Radical Socialist support"
 antiquarian_nationalist_drift:0 "Daily Antiquarian Nationalist support"
-
+national_populist_drift:0 "Daily National Populist support"
 social_democrat_drift:0 "Daily Social Democrat support"
 liberal_drift:0 "Daily Liberal support"
-conservative_drift:0 "Daily Conservative support"
+conservative_drift:0 "Daily Social Conservative support"
 authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
 paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
 
 ### Banned ###
-utopianism_banned:0 "Banned Happinness" #change this later to Utopianism banned
+utopianism_banned:0 "Banned Utopianism" #originally "Banned Happiness", maybe in a joke build it will show up again
 council_communist_banned:0 "Banned Council Communists"
-socialist_banned:0 "Banned Socialists"
+socialist_banned:0 "Banned Radical Socialists"
 antiquarian_nationalist_banned:0 "Banned Antiquarian Nationalists"
-
+national_populist:0 "Banned National Populism" #Banned Patriotism
 social_democrat_banned:0 "Banned Social Democrats"
 liberal_banned:0 "Banned Liberals"
-conservative_banned:0 "Banned Conservatives"
+conservative_banned:0 "Banned Social Conservatives"
 authoritarian_democrat_banned:0 "Banned Authoritarian Democrats"
 paternal_autocrat_banned:0 "Banned Paternal Autocrats"
 
