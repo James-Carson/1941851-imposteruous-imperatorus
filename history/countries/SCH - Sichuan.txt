@@ -1,4 +1,4 @@
-﻿capital = 605 # Sichuan
+﻿capital = 601 # Xikang
 
 # Starting tech
 set_technology = {
