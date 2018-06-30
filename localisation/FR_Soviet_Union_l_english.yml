@@ -7,28 +7,26 @@ popular_figurehead:0 "Popular Figurehead"
 
 #### Political Parties ####
 
-SOV_vanguardist_party:0 "SNRP" #RKP(V)
-SOV_vanguardist_party_long:0 "Sovetskaya Narodno-Revolyutsionnaya Partiya" #Rossiyskaya Kollektivistskaya Partiya (Vanguardists)
-SOV_collectivist_party:0 "SRKYPMK"
-SOV_collectivist_party_long:0 "Sovetskaya Raboche-Krest'yanskaya Partiya Marxistov-Kollectivistov"
-SOV_libertarian_socialist_party:0 "RKP" #RKP(L)
-SOV_libertarian_socialist_party_long:0 "Rossiyskaya Kollektivistskaya Partiya" #Rossiyskaya Kollektivistskaya Partiya (Libertarians)
-SOV_social_democrat_party:0 "SRs"
-SOV_social_democrat_party_long:0 "Partiya Socialistov Reformatorov"
-SOV_social_liberal_party:0 "Kadets"
-SOV_social_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
-SOV_market_liberal_party:0 "Vozobnovleniya"
-SOV_market_liberal_party_long:0 "Partiya Mirnogo Vozobnovleniya"
-SOV_social_conservative_party:0 "Romanov Restorationists"
-SOV_social_conservative_party_long:0 "Romanov Restorationists (Constitutionalists)"
-SOV_authoritarian_democrat_party:0 "Technocratic Union of Soviet Workers"
-SOV_authoritarian_democrat_party_long:0 "Technocratic Union of Soviet Workers and Engineers"
-SOV_paternal_autocrat_party:0 "Romanov Restorationists"
-SOV_paternal_autocrat_party_long:0 "Romanov Restorationists (Absolutists)"
-SOV_national_populist_party:0 "RSV"
-SOV_national_populist_party_long:0 "Russian Salvation Union"
-SOV_valkist_party:0 "Smenovekhovtsy"
-SOV_valkist_party_long:0 "Smenovekhovtsy"
+SOV_utopianist_party:0 "Bolsheviks" #RKP(V)
+SOV_utopianist_party_long:0 "Bolshevik Faction of the RSDLP" #Rossiyskaya Kollektivistskaya Partiya (Vanguardists)
+SOV_council_communist_party:0 "Bolsheviks"
+SOV_council_communist_long:0 "Bolshevik Faction of the RSDLP"
+SOV_socialist_party:0 "Bolsheviks" #RKP(L)
+SOV_socialist_party_long:0 "Bolshevik Faction of the RSDLP" #Rossiyskaya Kollektivistskaya Partiya (Libertarians)
+SOV_social_democrat_party:0 "Mensheviks"
+SOV_social_democrat_party_long:0 "Menshevik Faction of the RSDLP"
+SOV_liberal_party:0 "Kadets"
+SOV_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+SOV_conservative_party:0 "Octobrists"
+SOV_conservative_party_long:0 "Uninon of October 17"
+SOV_authoritarian_democrat_party:0 "Military Junta"
+SOV_authoritarian_democrat_party_long:0 "Military Junta"
+SOV_paternal_autocrat_party:0 "Tsarist Loyalists"
+SOV_paternal_autocrat_party_long:0 "Tsarist Loyalists"
+SOV_national_populist_party:0 "TBD"
+SOV_national_populist_party_long:0 "TBD"
+SOV_antiquarian_nationalist_party:0 "Tsarist Restorationists"
+SOV_antiquarian_nationalist_party_long:0 "Tsarist Restorationists"
 
 ###############
 #### IDEAS ####
@@ -311,7 +309,6 @@ SOV_capital_ships_effort_desc:0 ""
 SOV_bloated_bureaucracy:0 "Bloated Bureaucracy"
 SOV_bloated_bureaucracy_desc:0 "With the advent of the Centralization of the USSR, our Bureaucracy is struggling to administer everything so suddenly. It will take some time before we are able to properly govern everything directly."
 #### events ####
-soviet.1.d:0 "The old Tsarist regime was highly turbulent since the turn of the century, however the Great War put the final nail in the coffin of the Tsar, and later the Provisional Republic. Disastrous losses to the advancing German-Austrian Armies caused the precious little stability within Russia to plummet, shortly afterwards, the brutal conflict known as the Russian Civil War would develop. Many years of toil, struggle, and some luck had allowed Lenin and his Bolsheviks to establish themselves as the victors of the Russian Civil War. However, as the old saying goes, 'out of the frying pan and into the fire'.\n\nCountless years of war, death, and civil misery had led to the Krondstadt Rebellion which originated off the coast of Petrograd. With various other movements inspired by the Krondstadt rebellion beginning to spring up across the Union, Lenin acknowledged that if the matter was to be ignored, the USSR would soon find itself in Civil disarray.\n\nLenin accepted the terms of the so-called 'Krondstadt Ultimatum', and then resigned from the Party entirely. The RKP was transformed from an Authoritarian Bolshevik party into a relatively Liberal (by socialist standards) organization. Since then, Russia has seen herself on a clear path of liberalization and decentralization.\n\nToday, Russia stands as an isolated beacon of Socialism in an alien world. The following years will be decisive in deciding which role Russia will take on in the worldwide revolution, and which branch of Socialism she will subscribe to, but furthermore and perhaps of most importance would be the future of the Union itself."
 ###
 soviet.15.d:0 "The face of Russian Politics has been drastically changed by the Krondstadt Ultimatum, and the RKP stands at the front as one of the most Liberal parties within the Union. The SRKYPMK stands as a broad organization of Leninists and Marxists, whilst the SNRP is highly authoritarian in nature, and follows Leon Trotsky's theories of permanent revolution.\n\nNonetheless, this election will shape the future of Russian Politics perhaps even more than the Krondstadt Ultimatum."
 ###
