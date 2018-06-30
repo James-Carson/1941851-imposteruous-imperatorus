@@ -4,10 +4,10 @@ state=
 	name="STATE_269"
 	manpower = 344700
 	
-	state_category = enclave
+	state_category = rural
 	
 	history= {
-		owner = GER
+		owner = SOM
 		buildings = {
 			infrastructure = 3
 			12759 = {

@@ -4,7 +4,7 @@ state={
 	name="STATE_321"
 	manpower = 533952
 
-	state_category = enclave
+	state_category = rural
 
 	history={
 		owner = RAJ
@@ -18,6 +18,9 @@ state={
 			}
 		}
 		add_core_of = RAJ
+		add_claim_by = INC
+		add_claim_by = IND
+		add_claim_by = HYD
 	}
 
 	provinces={

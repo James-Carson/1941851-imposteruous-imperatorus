@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = IND
+		owner = INC
 		victory_points = {
 			11929 1
 		}
@@ -20,8 +20,10 @@ state={
 			}
 			
 		}
-		add_core_of = IND
-		add_core_of = RAJ
+		add_core_of = INC
+		add_claim_by = RAJ
+		add_claim_by = IND
+		add_claim_by = HYD
 	}
 
 	provinces={

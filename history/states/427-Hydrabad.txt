@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = HYD
 		victory_points = {
 			8087 1 
 		}
@@ -17,8 +17,10 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = IND
-		add_core_of = RAJ
+		add_core_of = HYD
+		add_claim_by = RAJ
+		add_claim_by = INC
+		add_claim_by = IND
 	}
 
 	provinces={

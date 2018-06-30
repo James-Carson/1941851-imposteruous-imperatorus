@@ -900,3 +900,8 @@ WIF = {
 	color = rgb { 66 66 150 } #Temporary, originally 66 134 244 but that was too similar to USA.
 	color_ui = rgb { 66 66 150 }
 }
+
+BUR = {
+  color = rgb { 54 104 9 }
+  color_ui = rgb { 90 140 47}
+}

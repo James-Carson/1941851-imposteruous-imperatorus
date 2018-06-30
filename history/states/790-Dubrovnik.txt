@@ -7,14 +7,13 @@ state={
 
 
 	history={
-		owner = ITA
+		owner = CRO
 		buildings = {
 			infrastructure = 3
 			6889 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = ITA
 		add_core_of = CRO
 		add_core_of = BOS
 	}

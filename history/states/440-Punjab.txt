@@ -4,13 +4,16 @@ state={
 	name="STATE_440"
 
 	history={
-		owner = IND
+		owner = PUN
 		buildings = {
 			infrastructure = 5
 
 		}
-		add_core_of = IND
-		add_core_of = RAJ
+		add_core_of = PUN
+		add_claim_by = IND
+		add_claim_by = RAJ
+		add_claim_by = INC
+		add_claim_by = HYD
 	}
 
 	provinces={

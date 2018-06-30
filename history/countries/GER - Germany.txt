@@ -55,6 +55,7 @@ add_to_faction = POL
 add_to_faction = UKR
 add_to_faction = LIT
 add_to_faction = EST
+add_to_faction = RAJ
 
 puppet = CRI
 CRI = { set_cosmetic_tag = GER_Crimea }
@@ -72,6 +73,7 @@ puppet = EST
 
 puppet = POL
 
+puppet = RAJ
 
 set_research_slots = 4
 set_convoys = 200

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = IND
 		victory_points = {
 			9975 1 
 		}
@@ -21,7 +21,9 @@ state={
 
 		}
 		add_core_of = IND
-		add_core_of = RAJ
+		add_claim_by = RAJ
+		add_claim_by = INC
+		add_claim_by = HYD
 	}
 
 	provinces={

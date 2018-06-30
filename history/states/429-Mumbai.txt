@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = HYD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -21,8 +21,10 @@ state={
 		victory_points = {
 			1349 10 
 		}
-		add_core_of = IND
-		add_core_of = RAJ
+		add_core_of = HYD
+		add_claim_by = RAJ
+		add_claim_by = INC
+		add_claim_by = IND
 
 	}
 

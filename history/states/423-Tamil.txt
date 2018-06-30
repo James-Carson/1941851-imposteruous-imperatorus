@@ -16,8 +16,10 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = IND
 		add_core_of = RAJ
+		add_claim_by = INC
+		add_claim_by = IND
+		add_claim_by = HYD
 	}
 
 	provinces={
