@@ -7,7 +7,7 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = GER
 		buildings = {
 			infrastructure = 3
 			2188 = {
@@ -15,8 +15,5 @@ state={
 			}
 		}
 	}
-	
-	provinces={
-		2188 
-	}
+	provinces={ 2188 }
 }

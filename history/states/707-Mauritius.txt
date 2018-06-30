@@ -6,7 +6,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		owner = MDG
+		add_core_of = MDG
 		buildings = {
 			infrastructure = 3
 			13018 = {
@@ -14,8 +15,5 @@ state={
 			}
 		}
 	}
-	
-	provinces={
-		13018 
-	}
+	provinces={ 13018 }
 }

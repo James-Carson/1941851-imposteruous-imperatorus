@@ -4,7 +4,7 @@ state={
 	name="STATE_637"
 
 	history={
-		owner = SOV
+		owner = USA
 		buildings = {
 			infrastructure = 2
 
@@ -13,9 +13,7 @@ state={
 
 	}
 
-	provinces={
-		1823 1839 1863 4728 7878 12522 
-	}
+	provinces={ 1823 1839 1863 4728 7878 12522 }
 	manpower=48831
 	buildings_max_level_factor=1.000
 	state_category=wasteland

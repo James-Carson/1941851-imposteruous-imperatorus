@@ -6,16 +6,13 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = AST
 		buildings = {
 			infrastructure = 3
 			13002 = {
 				naval_base = 1
 			}
 		}
-	}
-	
-	provinces={
-		13002 
-	}
+	}	
+	provinces={ 13002 }
 }

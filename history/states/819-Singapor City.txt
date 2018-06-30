@@ -3,7 +3,7 @@ state={
 	name="STATE_819"
 
 	history={
-		owner = ENG
+		owner = GER
 		victory_points = {
 			12299 10 
 		}
@@ -20,9 +20,7 @@ state={
 
 	}
 
-	provinces={
-		12299 
-	}
+	provinces={ 12299 }
 	manpower=603000
 	buildings_max_level_factor=1.000
 	state_category=large_city

@@ -9,7 +9,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = FRA
+		owner = AST
 		victory_points = {
 			4268 1 
 		}
@@ -25,10 +25,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		1263 4231 4247 4268 7264 10160 12132 
-	}
+	provinces={ 1263 4231 4247 4268 7264 10160 12132 }
 	manpower=41553
 	buildings_max_level_factor=1.000
 }

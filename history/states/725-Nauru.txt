@@ -5,7 +5,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = AST
+		owner = GER
 		buildings = {
 			infrastructure = 3
 			13038 = {
@@ -16,8 +16,5 @@ state={
 			13038 1 
 		}
 	}
-	
-	provinces={
-		13038 
-	}
+	provinces={ 13038 }
 }

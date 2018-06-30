@@ -3,7 +3,7 @@ state={
 	name="STATE_822"
 
 	history={
-		owner = ENG
+		owner = GER
 		victory_points = {
 			10297 1 
 		}
@@ -18,9 +18,7 @@ state={
 
 	}
 
-	provinces={
-		4412 7427 10297 
-	}
+	provinces={ 4412 7427 10297 }
 	manpower=638650
 	buildings_max_level_factor=1.000
 	state_category=rural

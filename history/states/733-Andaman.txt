@@ -5,7 +5,8 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = ENG
+		owner = RAJ
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 3
 			12251 = {
@@ -15,7 +16,5 @@ state={
 		}
 
 	}
-	provinces={
-		10321 12251 
-	}
+	provinces={ 10321 12251 }
 }

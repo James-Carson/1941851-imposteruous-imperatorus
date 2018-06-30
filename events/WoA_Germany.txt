@@ -1,4 +1,4 @@
-add_namespace = ger
+﻿add_namespace = ger
 
 country_event = {
 	id = ger.3

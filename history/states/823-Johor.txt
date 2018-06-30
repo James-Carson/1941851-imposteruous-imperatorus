@@ -3,7 +3,7 @@ state={
 	name="STATE_823"
 
 	history={
-		owner = ENG
+		owner = GER
 		buildings = {
 			infrastructure = 2
 
@@ -11,9 +11,7 @@ state={
 
 	}
 
-	provinces={
-		4367 4424 10313 
-	}
+	provinces={ 4367 4424 10313}
 	manpower=598350
 	buildings_max_level_factor=1.000
 	state_category=rural
