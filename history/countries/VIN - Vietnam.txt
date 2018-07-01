@@ -1,4 +1,4 @@
-﻿capital = 671 #Hanoi
+﻿capital = 943 #Hanoi
 
 set_research_slots = 3
 set_stability = 0.88

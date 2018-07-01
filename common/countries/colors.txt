@@ -905,3 +905,7 @@ BUR = {
   color = rgb { 54 104 9 }
   color_ui = rgb { 90 140 47}
 }
+
+GMY = {
+	color = rgb { 98 98 98 }
+	color_ui = rgb { 134 134 134 }

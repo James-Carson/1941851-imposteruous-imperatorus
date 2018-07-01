@@ -16,6 +16,6 @@ state={
 	}
 	state_category=small_island
 	provinces={ 1042 1085 1269 1370 4292 7437 10291 10319 }
-	manpower=100000
+	manpower=103500
 	buildings_max_level_factor=1.000
 }
