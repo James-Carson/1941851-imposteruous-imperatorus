@@ -1,0 +1,15 @@
+#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+
+
+GER_police_reports = {
+	
+	icon = ger_mefo_bills
+
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		original_tag = GER
+	}
+}

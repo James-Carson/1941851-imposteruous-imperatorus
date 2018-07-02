@@ -1,4 +1,8 @@
-﻿capital = 64
+﻿#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+
+capital = 64
 
 # Starting tech
 set_technology = {

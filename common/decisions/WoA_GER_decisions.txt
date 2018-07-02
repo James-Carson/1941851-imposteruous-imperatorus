@@ -1,0 +1,119 @@
+﻿#########################################################
+#Coded by AirHunter, do not touch without his permission#
+#########################################################
+
+GER_generic_decisions = { #DO NOT TOUCH. YES, THIS CAUSES ERRORS, BUT IT MAGICALLY FIXES THE OTHER DECISIONS NOT WORKING.
+}
+
+GER_police_reports = {
+
+	GER_police_report_utopianism = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.10 }
+		}
+	}
+
+	GER_police_report_council_communist = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.11 }
+		}
+	}
+
+	GER_police_report_socialist = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.12 }
+		}
+	}
+
+	GER_police_report_social_democrat = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.13 }
+		}
+	}
+
+	GER_police_report_liberal = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.14 }
+		}
+	}
+
+	GER_police_report_conservative = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.15 }
+		}
+	}
+
+	GER_police_report_authoritarian_democrat = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.16 }
+		}
+	}
+
+	GER_police_report_paternal_autocrat = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.17 }
+		}
+	}
+
+	GER_police_report_national_populist = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.18 }
+		}
+	}
+
+	GER_police_report_antiquarian_nationalist = {
+	
+		icon = generic_industry
+
+		available = { original_tag = GER }
+
+		complete_effect = {
+			country_event = { id = ger.19 }
+		}
+	}
+}
