@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "CAESARREICH_NAME"
-		desc = "CAESARREICH_DESC"
+		name = "WHISPERS_OF_ANTIQUITY_NAME"
+		desc = "WHISPERS_OF_ANTIQUITY_DESC"
 		date = 1936.1.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "ITA"
@@ -31,9 +31,9 @@ bookmarks = {
 			history = "GER_CAESARREICH_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
-			 GER_victor_of_the_guerra_mondiale
-			 GER_cost_of_1919
-			 GER_bulwark_of_the_status_quo
+				GER_victor_of_the_guerra_mondiale
+				GER_cost_of_1919
+				GER_bulwark_of_the_status_quo
 			}
 			focuses = {
 			}
@@ -77,7 +77,7 @@ bookmarks = {
 		#Others
 
 		"---"={
-			history = "OTHER_FUHRERREICH_DESC"
+			history = "OTHER_WHISPERS_OF_ANTIQUITY_DESC"
 		}
 
 		# minors
@@ -86,15 +86,6 @@ bookmarks = {
 			minor = yes
 			history = "ARG_FUHRERREICH_DESC"
 			ideology = liberal
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"ENG"={
-			minor = yes
-			history = "ENG_FUHRERREICH_DESC"
-			ideology = authoritarian_democrat
 			ideas = {
 			}
 			focuses = {

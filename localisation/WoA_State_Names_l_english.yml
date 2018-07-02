@@ -232,7 +232,7 @@
  STATE_231:0 "Georgia"
  STATE_232:0 "Dagestan"
  STATE_233:0 "Kabardino-Balkaria"
- STATE_234:0 "Krasnodar"
+ STATE_234:0 "East Krasnodar"
  STATE_235:0 "Stravropol"
  STATE_236:0 "Astrakhan"
  STATE_237:0 "Elista"
@@ -943,3 +943,4 @@
  STATE_942:0 "Saigon"
  STATE_943:0 "Hanoi City"
  STATE_944:0 "Phongsali"
+ STATE_945:0 "West Krasnodar WIP"

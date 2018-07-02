@@ -12,7 +12,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 255 255 255 }
+		color = { 155 0 00 } #Copied from FR Vanguardist.
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -35,7 +35,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 255 80 80 }
+		color = { 225 0 0 } #Copied over from FR Collectivist.
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -58,7 +58,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 255 0 0 }
+		color = { 233 58 58 } #Copied over from FR Libertarian socialist.
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -106,7 +106,7 @@ ideologies = {
 	
 	liberal = {
 		types = {
-		liberal_subtype = {}
+			liberal_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_LIBERAL_1"
@@ -250,7 +250,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 255 170 0 }
+		color = { 100 0 200 } #Royal Purple
 		rules = {
 			can_force_government = no
 			can_puppet = no

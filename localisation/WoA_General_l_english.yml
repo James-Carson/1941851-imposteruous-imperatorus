@@ -57,12 +57,12 @@ GENERATING_GRADIENT_BORDERS:0 "Establishing a Puppet State"
 ### Name and Description ###
 BM_HISTORY_TITLE:0 "Brief History"
 
-CAESARREICH_NAME:0 "Legacy of the Guerra Mondiale"
+WHISPERS_OF_ANTIQUITY_NAME:0 "Legacy of the Guerra Mondiale"
 
-CAESARREICH_DESC:0 "Insert Description Here later, lore guys."
+WHISPERS_OF_ANTIQUITY_DESC:0 ""
 
 ###OTHER COUNTRIES DESC###
-OTHER_CAESARREICH_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the valkists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
+OTHER_WHISPERS_OF_ANTIQUITY_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the valkists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
 
 ###LEADER DESCRIPTIONS###
 POLITICS_GEORGE_V_DESC:0 "George V of Windsor is the King-Emperor of the British Empire, more than just in name. Reigning nearly 3 times longer than his father, Edward VII, he has risen to become one of the most beloved Monarchs in British history. Under his reign the British Empire has once again asserted itself as the Global Hegemon and has economically eclipsed both their rivals and former allies following the Empire's return to Splendid Isolation. However, his invincible image does not entirely live up to reality. As the years march forward, King George's health has been steadily deteriorating, forcing him allow his son, Prince Edward, to assume a portion of his duties. Some of the Empire's finest medical experts expect him to live another 10 years at minimum, although King George privately holds an opinion to the contrary, despite his often stoic nature."
@@ -204,14 +204,15 @@ great_compromiser:0 "Great Compromiser"
 ### Ideologies ###
 utopianism:0 "Utiopianists"
 council_communist:0 "Council Communists"
-socialist:0 "Radical Socialism"
+socialist:0 "Radical Socialists"
 antiquarian_nationalist:0 "Antiquarian Nationalists"
-liberal:0 "Liberalism"
+liberal:0 "Liberalists"
 social_democrat:0 "Social Democrats"
 conservative:0 "Social Conservatives"
 authoritarian_democrat:0 "Authoritarian Dem."
 paternal_autocrat:0 "Paternal Autocrats"
 national_populist:0 "National Populists"
+
 ### Drift ###
 utopianism_drift:0 "Daily Utopianist support"
 council_communist_drift:0 "Daily Council Communist support"
@@ -225,11 +226,11 @@ authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
 paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
 
 ### Banned ###
-utopianism_banned:0 "Banned Utopianism" #originally "Banned Happiness", maybe in a joke build it will show up again
+utopianism_banned:0 "Banned Utopianists" #originally "Banned Happiness", maybe in a joke build it will show up again
 council_communist_banned:0 "Banned Council Communists"
 socialist_banned:0 "Banned Radical Socialists"
 antiquarian_nationalist_banned:0 "Banned Antiquarian Nationalists"
-national_populist:0 "Banned National Populism" #Banned Patriotism
+national_populist_banned:0 "Banned National Populists" #Banned Patriotism
 social_democrat_banned:0 "Banned Social Democrats"
 liberal_banned:0 "Banned Liberals"
 conservative_banned:0 "Banned Social Conservatives"

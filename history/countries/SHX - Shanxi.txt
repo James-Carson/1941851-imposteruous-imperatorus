@@ -24,7 +24,7 @@ set_politics = {
 		authoritarian_democrat = { 
 			popularity = 60
 		}
-		utopianist = {
+		utopianism = {
 			popularity = 10
 		}
 		council_communist = {
