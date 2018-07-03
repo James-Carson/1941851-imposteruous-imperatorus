@@ -18,23 +18,23 @@ set_politics = {
 
     parties = {
         social_democrat = {
-            popularity = 0
+            popularity = 6
         }
         liberal = {
-            popularity = 13
+            popularity = 21
         }
         conservative = {
-            popularity = 22
+            popularity = 20
         }
         authoritarian_democrat = {
-            popularity = 0
+            popularity = 41
         }
         paternal_autocrat = {
-            popularity = 60
+            popularity = 13
         }
     }
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 60
 	elections_allowed = no
@@ -63,6 +63,15 @@ create_country_leader = {
 	desc = "IDRIS_SENUSSI_DESC"
 	picture = "Portrait_Arabia_Generic_land_3.dds"
 	ideology = paternal_autocrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Idris Senussi"
+	desc = "IDRIS_SENUSSI_DESC"
+	picture = "Portrait_Arabia_Generic_land_3.dds"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
 }

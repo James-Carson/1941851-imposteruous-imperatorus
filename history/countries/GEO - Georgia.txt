@@ -40,16 +40,28 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		utopianist = {
-			popularity = 71
+		Utopianism = {
+			popularity = 45
 		}
 		council_communist = {
-			popularity = 11
+			popularity = 10
 		}
 		socialist = {
-			popularity = 14
+			popularity = 15
 		}
 		paternal_autocrat = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 5
+		}
+		liberal = {
+			popularity = 4
+		}
+		conservative = {
+			popularity = 15
+		}
+		authoritarian_democrat = {
 			popularity = 4
 		}
 	}

@@ -13,24 +13,36 @@ set_war_support = 0.50
 set_politics = {
 
 	parties = {
+		utopianism = {
+		   popularity = 1
+		}
+		council_communist = {
+		    popularity = 0
+		}
+		socialist = {
+		    popularity = 0
+		}
 		social_democrat = {
-			popularity = 0
+			popularity = 5
 		}
 		liberal = {
-			popularity = 22
+			popularity = 21
 		}
 		conservative = {
-			popularity = 18
+			popularity = 21
 		}
 		authoritarian_democrat = {
-			popularity = 12
+			popularity = 41
 		}
 		paternal_autocrat = {
-			popularity = 43
+			popularity = 11
+		}
+		national_populist = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,10 +69,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Abbas II"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
 	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Abbas II"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
